@@ -1,0 +1,19 @@
+**25/09/2018 - Time Leonardo**
+Com o Leonardo foi possível compreender mais a fundo todas as etapas feita por ele, já que mostrou passo a passo de um único projeto. Ótima ideia seu time utilizar integração entre Slack e Trello, isso pode funcionar em outros times na empresa.
+
+**25/09/2018 -  Time Vinicius**
+Me identifiquei bastante com a forma que o Vinicius organiza suas tarefas desde o levantamento de requisitos até o sistema em produção. Sensacional a ideia de trabalhar com itens da semana, acredito que isso ajuda os 
+desenvolvedores e ainda motiva o time em alcançar os objetivos.
+
+**25/09/2018 -  Time Pomini**
+Foi possível observar a rotina dele voltada para a resolução de problemas e ver como o Analista deve ser um profissional multitarefa. Ainda foi possível ver que nem sempre tudo gira em torno do time, mas que há momentos em que pode e deve pedir ajuda a outro Analista. 
+
+**26/09/2018 - Time Daniela e Ericson**
+A rotina no GCPRO é diferente das demais equipes, visto que já existe um ERP que atende vários clientes. Neste time já existe um maior número de documentos, o que a Daniela e o Ericson mostraram muito bem. Ainda deram exemplos de atuação direto no banco de dados. 
+
+**Observação Geral**
+A rotina passada por cada um dos analistas, condiz com o que foi anteriormente passado nas aulas durante o primeiro mês. Neste dois dias, foi possível observar de forma mais detalhada o que cada analista faz e ainda tirar várias dúvidas sobre a forma que é feito o seu trabalho. Também foi possível conhecer melhor os projetos em que atuam. Muito legal todos mostrarem os sistemas em ambiente de teste.
+Vinicius e Pomini, foi muito bom participar da Apresentação do Projeto 'Sim à Vida' e observar vocês na prática!!
+
+**Sugestão**
+Gostaria de passar pelos Analistas de outros times e ver essa rotina de trabalho. :smile: 

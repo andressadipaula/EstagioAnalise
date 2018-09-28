@@ -1,0 +1,80 @@
+28-09-2018
+
+Delimitar o Sistema e o Contexto do Sistema
+
+Elicitar - trazer a tona o que não está tão claro assim
+
+Por que precisamos definir o limite do sistema e o limite do contexto?
+
+Limite do Sistema - linha que separa o sistema do contexto do sistema
+Limite do contexto - linha que separa o contexto do sistema do ambiente irrelevante
+
+Cotexto do Sistema______________________________________
+Cotexto do Sistema - parte do ambiente do sistema que é relevante para entender e definir os requisitos do sistema a ser desenvolvido
+-Aspectos da realidade que influenciam o contexto do sistema - partes interessadas, sistema em operação, processos, eventos, documentação
+
+Os requisitos nascem no contexto do sistema
+
+Um requisito deve ser associado a um contexto específico
+Sempre um requisito é definido para um contexto, logo, é muito importante entender o contexto
+
+Contexto do sistema deve ser documentado, as técnicas são:
+-Diagrama de fluxo dados: comunicação entre processos, processos e entidades
+-Diagramas de casos de uso: interação entre entidades (pessoas,empresas) com o sistema q será desenvolvido
+-Diagramas de classe
+
+Profissional responsável pela identificação do contexto do sistema: Engenheiro de Requisitos
+
+Limite do Sistema________________________________________
+Separa o sistema do seu ambiente, separa o que pode ser modificado no desenvovimento daquilo que nao pode ser modificado
+Exemplo (E-commerce, onde o processo de vendas é identificado no contexto do sistema e as formas de pagamentos estão no limite do sistema)
+
+Interface: meio onde ocorre interação entre sistema e seu ambiente 
+Fonte: fornece dados de entrada para o sistema. 
+Destino: recebe dados de saída do sistema
+Fonte e destinos: Pessoas que entram com dados, sistemas existentes
+
+Escopo do sistema: identificado quando é definido claramente o limite do sistema
+
+Zona cinzenta entre o sistema e o contexto_______________________________________________
+Sistema: aquilo que será modificado no processo de desenvolvimento do software
+Contexto: esta em torno do sistema e não será modificado
+Limite do sistema: separa sistema e contexto
+Zona cinzenta: separação vaga no inicio entre sistema e contexto(escopo do sistema)
+Deslocamento da zona cinzenta: descoberta de detalhes sobre o escopo do sistema (diminuição ou aumento da zona cinzenta)
+___________________________________________________________________________________________________________________________
+Determinar os limites do sistema e do contexto
+Limite do contexto: separa parte relevante do ambiente da parte irrelevante(não é tratada pela ER)
+Exemplo: num sistema de telefonia, a anatel se encontra no contexto do sistema
+
+Zona cinzenta entre o contexto e o ambiente irrelevante_______________________________________________
+-É praticamente impossível eliminar a zona cinzenta entre o contexto do sistema e o ambiente irrelevante.
+-Não se pode afirmar com certeza se estão relalcionados ao sistema ou não.
+-O ER não tem tempo para analisar tudo que pode ou não fazer parte do limite do contexto. 
+Dificil identificar se o elemento influencia ou se são ou não influenciados pelo sistema.
+
+Para definir o limite do sistema_____________________
+Quais aspectos pertencem ao sistema a ser desenvolvido e quais aspectos fazem parte do contexto do sistema
+
+Para definir o limite do contexto do sistema______________________
+Quais aspectos fazem parte do contexto do sistema(tem relação com o sistema) e quais são parte do ambiente irrelevante
+
+Resumo__________________________________________________________________________________________________________________________________________________
+Sistema - tudo que será desenvolvido, aquilo que pode ser modificado no processo de desenvolvimento 
+Limite do Sistema - separar o sistema do contexto
+
+Interface - meio de interação entre sistema e seu contexto(ambiente)
+
+Contexto do Sistema 
+-Aquilo que auxilia no desenvolvimento do sistema, na definição dos requisitos. 
+-Aspectos que influenciam - partes interessadas, sistema em operação, processos, eventos, documentação
+-O contexto do sistema pode ser documentado por diagrama de fluxo de dados, diagramas de caso de uso e diagramas de classe
+
+Limite do Contexto - separar o contexto do ambiente irrelevante. Separa o que é relevante pro desenvolvimento do sistema do que é irrelevate.
+
+Ambiente irrelevante - irrelevante ao desenvolvimento do sistema
+
+
+
+
+

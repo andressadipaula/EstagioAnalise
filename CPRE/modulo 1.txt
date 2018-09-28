@@ -1,0 +1,131 @@
+27-09-2018
+------Livro Oficial________________________________________________________________________________________
+
+Requisito
+-condição ou capacidade para um usuário resolver um problema ou lançar um objetivo;
+-condição ou capacidade que deve ser alcançada ou estar presente em um sistema  ou componeten de sistema;
+-representação documentda de uma condição ou capacidade.
+ 
+Stakeholders (tem influência direta ou indireta nos requisitos de um sistema)
+-Pessoas ou organizações que têm algum impacto sobre os requisitos;
+-pessoas que irão interagir com o sistema;
+-pessoas que têm interesse no sistema mas não irão utilizá-lo;
+-entidades legais, instituições.
+
+Processo de desenvolvimento
+1-Elicitação - elicitar os requisitos dos stakeholders;
+(Técnicas de Elicitação - -Entrevistas, cenários/caso de uso, observação, grupo focal, brainstorming e prototipagem)
+
+2-Documentação - documentar os requisitos de forma adequada; 
+(Descrição dos requisitos em linguagem natural ou modelos conceituais. Especificação pode fazer parte do contrato do projeto)
+
+3-Validação e Negociação - verificar os requisitos;
+(Conferir necessidades, consistencia, completude e realidade dos requisitos. Pode haver resolução de conflitos nessa parte)
+(Técnicas da validação e negociação são JAD, priorização de requisitos, modelagem)
+
+4-Gerenciamento - gerenciar os requisitos ao longo de todo o ciclo de vida do sistema. Capturar, armazenar, disseminar e gerenciar a informação.
+Atividades relativas a mudança, controle de versão e 
+rastreamemto de requisitos(atividade que fornece o relacionamento entre requisitos e outros elementos do sistema)
+
+
+Engenheiro de Requisito
+-Deve possuir Know-how de TI para estar a par dos problemas com os quais desenvolvedores se deparam e para conseguir comunicar-se com eles no mesmo nível.
+
+Características do Engenheiro de Requisitos
+-Raciocínio Analítico - familiarizar com domínios desconhecidos, compreender e analisar problemas e relacionamementos complexos
+-Empatia - se colocar no lugar do outro, identificar problemas que surgem de um grupo de stakeholders e agir conforme necessário.
+-Competência comunicativa - boa comunicação, saber ouvir, perguntar na hora certa, perceber quando não há informações necessárias e perguntar mais.
+-Resolução de conflitos - saber identificar conflitos, atuar como mediador entre partes envolvidas e aplicar técnicas para resolver.
+-Moderação - atuar como mediador entre diferentes opiniões e liderar discussões.
+-Autoconfiança - auto nivel de confiança e capacidade de se defender em caso de fortes objeções em relação a suas opiniões.
+-Persuasão - representar requisitos em reuniões, consolidar opiniões divergentes, facilitar uma decisão em caso de discordância e criar concenso entre stakeholders.
+(Fazer com que alguém tome a melhor decisão)
+
+Tipos de requisitos (3 Tipos)
+
+-Requisitos Funcionais - funcionalidade oferecida pelo sistema, resultado de algum comportamento ser oferecido
+por uma função do sistema (Requisitos Funcionais, Rquisitos comportamentais e Requisitos Estruturais)
+
+-Requisitos de Qualidade - qualidades desejadas do sistema a ser desenvolvido. Definiem desempenho, disponibilidade,
+confiabilidade, escalabilidade, ou portabilidade. Classificados como requisitos não funcionais.
+
+-Restriçoes - limita o espaço da solução não são implementadas, mas cumpridas 
+(Ex: o sistema deverá estar disponivel em 12/2018)	
+
+
+------Vídeo Parte 1________________________________________________________________________________________
+
+Engenharia de Requisitos: 
+-abordagem sistemática e disciplinada para a especificação e gerenciamento de requisitos.
+
+Objetivos: 
+-conhecer os requisitos, alcançar concenso entre as partes interessadas sobre os requisitos,
+documentá-los de acordo com os padrões e gerenciá-los sistematicamente. Saber as necessidades que devem ser atendidas;
+-entender e documentar os desejos e necessidades das partes interessadas, especificando e gerenciando os requisitos
+para minimizar riscos de entregar um sistema que não atende as necessidades das partes interessadas.
+
+------Vídeo Parte 3________________________________________________________________________________________
+Modelo de processo de desenvolvimento de software
+1-Fase distinta - foca na elicitação e documentação dos requisitos antes do desenvolvimento do software. Tem início, meio e fim.
+(Exemplos: Modelo Waterfull ou cascata, Modelo V,)
+
+2-Processo continuo e paralelo - os requisitos mudam ao longo do curso de um projeto
+(Exemplos: XP Extreme Programming, Scrum)
+
+Métodos Ágeis
+1-Os requisitos não são bem conhecidos no início do projeto
+2-Requisitos mudam
+3-Fazer essas mudanças não é tão caro
+
+Técnicas para gerenciar a variabilidade de requisitos
+1-Desacoplamento de requisitos
+2-Elicitação e priorização acontece em várias iterações e não apenas no início.
+
+Engenharia de Requisitos normal: priorização dos reequisitos uma única vez
+Abordagem Ágil: priorização realizada a cada ciclo de desenvolvimento.
+
+------Vídeo Parte 4________________________________________________________________________________________
+Requisito 
+-é uma necessidade de uma parte interessada para um projeto a ser desenvolvido
+-Condição ou capacidade para solucionar um problema
+
+------Vídeo Parte 5________________________________________________________________________________________
+Requisitos são comunicados - geralmente utiliza a linguagem natural
+Precisa entender e se comunicar melhor com as partes interessadas
+(Exemplo de comunicação: UML)
+
+------Vídeo Parte 6________________________________________________________________________________________
+Engenheiro de Requisitos
+-Responsável por capturar necessidade das partes interessadas e transmitir aos desenvolvedores
+As 7 caracteristicas do engenheiro de requisitos	
+
+------Vídeo Parte 7________________________________________________________________________________________
+Requisito funcional - descrevem as funcionalidades do sistema. Podem ser:
+-Requisitos Funcionais
+-Requisitos Comportamentais
+-Requisitos Estruturais
+
+Requisito de Qualidade - escalabilidade, segurança. 'ex: o sistema deve permitir que 100 usuarios devem acessar o sistema concomitantemente'
+
+Restrição - limita o espaço da solução 'deve ser desenvolvido utilizando Java'
+
+------Vídeo Parte 8________________________________________________________________________________________
+Categorização dos requisitos de qualidade
+Não sao documentados ou são documentados de forma inadequada
+-desempenho do sistema
+-segurança do sistema
+-confiabilidade das funcionalidades
+-usabilidade do sistema
+-modificabilidade do sistema
+-portabilidade do sistema
+
+Cuidados com os requisitos de qualidade
+-Estão frequentemente relacionados a vários requisitos funcionais, devem ser separados dos requisitos funcionais.
+-devem ser documentados separado e constar sua relação com os demais tipos de requisitos
+
+
+------Vídeo Parte 9________________________________________________________________________________________
+
+Resumo
+O que são requisitos, partes interessadas,
+
