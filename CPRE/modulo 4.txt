@@ -1,0 +1,39 @@
+02/10/2018
+Módulo 4 - Documentação de Requisitos
+
+Desenho do documento_____________________________________________
+A informação produzida precisa ser documentada, por exemplo: atas de reuniões, relatórios de atividades, solicitações de mudanças, protocolos de entrevistas.
+
+*A atividade de documentação mais importante é a documentação de requisitos do sistema.
+*Técnicas de documentação é qualquer representação que facilite a comunicação entre as partes interessadas e que aumenta a qualidade dos requisitos documentados.
+
+Técnicas para documentar:
+-linguagem natural(menos formalidade) - prosa livre ou texto estruturado
+-modelos conceituais(mais formalidade)
+
+*Especificação de requisitos - coleção de requisitos representada de forma sistemática para um sistema ou componente
+
+Várias pessoas são encarregadas da documentação, por exemplo, engenheiro de requisitos, analista de negócios, desenvolvedores, testadores
+
+É responsabilidade do engenheiro de requisitos criar a especificação ou documento de requisitos
+
+Importância de documentar requisitos:
+1-Requisitos formam a base para o desenvolvimento do sistema
+2-Requisitos tem relevancia legal(contrato entre contratado e contratante)
+3-Documentos de requisitos são complexos
+4-Requisitos devem ser acessíveis por todas as partes envolvidas no projeto
+5-Compartilhar uma visão única dos requisitos
+
+Tipos de documentação_____________________________________________
+
+Os requisitos podem ser documentados sobre 3 diferentes perspectivas:
+1-Perspectiva estrututal - documenta estrutura de dados de entrada e saída
+2-Perspectiva funcional - documenta dados recebidos do contexto e processados pelo sistema, assim como os dados que retornam para o contexto
+3-Perspectiva comportamental - documenta reações do sistema em relação ao cntexto
+
+Na documentação de requisitos utiliza:
+-linguagem natural
+-modelo conceitual
+-combinação de ambos (enriquece a documentação do sistema)
+	
+
