@@ -1,0 +1,128 @@
+01/10/2018
+Módulo 3 - Elicitar Requisitos
+
+Fontes de Requuisitos___________________________________________________________________________________________________________________________
+-Partes interessadas (usuários, operadores, desenvolvedores, arquitetos, clientes, testadores)
+-Sistemas legados (sistemas em operação)
+-Documentação (existente dentro da organização)/(padrões, documentos legais, relatórios de erros de sistemas legados, etc)
+
+*Fonte mais importante(partes interessadas)
+
+É papel do Engenheiro de Requisitos:
+-Identificar partes interessadas (identifica pessoas, seus interesses e seu impacto no projeto)
+-coletar, documentar e consolidar objetivos e requisitos conflitantes de diferentes partes interessadas
+
+Ao identificar partes interessadas, organizar o trabalho em planilhas e tabelas:
+Nome, papel, dados de contato, disponibilidade durante o projeto, relevância, área de expertise, objetivos e interesse
+Envolvimento contínuo das partes interessadas transforma elas em colaboradores do projeto
+
+*Evitar desentendimentos e disputas entre ER e GP, é importante definir papéis e responsabilidades (formal ou informal)
+
+Obrigações do ER:
+-falar a mesma lingua das partes interessadas
+-se familiarizar com dominio da aplicação
+-cria o documento de requisitos
+-mantém relacionamento com as partes interessadas
+-apresentar ideias, alternativas e realizações
+-ouve partes interessadas e garante que o sistema seja simples e amigavél 
+
+Obrigaçoes das partes interessadas:
+-declaram os requisitos para o ER
+-documenta os requisitos
+-tomam decisões pontuais
+-respeitam estimativas de custo e viabilidade do ER
+-priorizam requisitos (o que precisa ser implementado primeiro)
+-inspecionar requisitos que o ER documentou
+-comunicar mudanças em requisitos
+-obedece o processo de controle de mudança
+-respeitam o processo de ER
+
+O ER:
+-planeja e ornaniza comunicação
+-rascunha um cronograma das atividades de ER que serão executadas em conjunto com as partes interessadas
+
+Categorização de Requisitos conforme o modelo de Kano____________________________________________________________________________________________
+A satisfação das partes interessadas pode ser classificada em 3 categorias
+1-Fatores básicos de satisfação (subconsciente) - conhecimento óbvio, aquilo que o cliente acha que o ER já sabe e não comunica.
+-se não for implementados, as partes interessadas ficarão insatisfeitas, somente evita o descontentamento
+-técnicas de observação e documentação
+
+2-Fatores esperados de satisfação (consciente) - aquilo que o cliente comunica ou solicita
+-são conhecidas e solicitadas pelas partes interessadas. Quando atendidas, ficam satisfeitas.
+-técnicas de pesquisa.
+
+3-Fatores inesperados de satisfação (inconsciente) - as partes interessantes não conhecem, são úteis
+-técnicas de criatividade
+
+Técnicas de elicitação____________________________________________________________________________________________________________________________
+Fatores importantes na definição da técnica de elicitação utilizada:
+-distinção entre requisitos conscientes, subconscientes e inconscientes
+-restrição de tempo e orçamento e disponibilidade das partes interessadas
+-experiência do engenheiro de requisitos com uma técnica em particular
+-as oportunidades e riscos do projeto
+
+*Ao escolher uma técnica, o ER deve identificar fatores de risco
+*Fatores de risco a ser considerado: o projeto tem custo fixo? é um contrato de serviço? é um novo projeto ou alteração de sistema legado 
+
+-Baixo nível de detalhes - técnicas de criatividade
+-Médio nível de detalhes - técnicas de pesquisa e observação
+-Alto nível de detalhes - ténicas de documentação
+
+Os tipos de ténicas:
+-Técnicas de pesquisa: elicitação precisa, participantes capaz de expressar seu conhecimento, ER faz perguntas. Tipos:
+	-Entrevista - perguntas previamente selecionadas e documenta as respostas. Alto consumo de tempo.
+	-Questionário - perguntas abertas e fechadas / pesquisa onlie, SurveyMonkey.
+
+-Técnicas de criatividade: elicitar requisitos inovadores
+	-Brainstorming - grupo de 5 a 10 pessoas, ideias documentadas sem discussão, depois de coletadas são analisadas.
+	-Paradoxo de brainstorming - envolve coleta de eventos que não deve ocorrer
+	-Mudança de perspectiva - pontos de vistas diferentes / 6 chapéis / quado partes interessadas informam seu conhecimento de forma parcial
+	-Técnicas de analogia - 
+
+-Técnicas de documentação: soluções e experiências com sistemas existentes. 
+Dever ser utilizadas em conjunto com outras técnicas para garantir a validade dos requisitos elicitados	
+	-Arqueologia de sistema - extrai informação da documentação ou código-fonte do sistema. Utilizada quando lógica do sistema foi perdida.
+	 Única técnica que garante que todas as funcionalidade do sistema legado sejam implementadas no novo sistema.
+	-Leitura baseada em perspectiva - adotar pontos de vistas diferente, ex ler a documetação com a perspectiva de usuário do sistema
+	-Reutilização - custo reduzido
+
+-Técnicas de observação: não apropriado para novos processos / familiarização do ER com o jargão de domínio
+	-Observação de campo - ER e alguma parte interessada observa e documenta o procedimento. Útil para procedimentos difícil de expressar verbalmente
+         Utilizada quando o procedimento é fisicamente visível 
+	-Aprendizado - quando o ER precisa aprender e executar atividades das partes interessadas
+
+-Técnicas de apoio: servem para balancear as fraquezas e problemas de outras técnicas de elicitação
+	-Mapa mental - representação gráfica de relacionamentos e interdependencias entre termos e conceitos. Utilizado para brainstorming
+	-Workshop-utilizado para desenhar telas do sistema
+	-Cartões CRC - expor em cartões os aspectos do contexto e seus respectivos atributos e propriedades
+	-Gravações de áudio e vídeo - para sistema altamente crítico, partes interessadas não presentes, orçamento pequeno
+	-Modelagem de caso de uso - documenta visão externa do sistema que será desenvolvido. Caso de uso é funcionalidade que deve ser suportada pelo sistema	
+	-Protótipo - utilizados para questionar requisitos já estabelecidos e para elicitar outros. Protótipos de telas
+
+______________________________________________________________________
+Resumo
+
+Módulo 3
+Fontes de Requisitos - partes interessadas (fonte mais importante), documentação e sistemas legados
+É papel do engenheiro de requisitos identificar as partes interessadas, coletar, documentar e consolidar objetivos.
+Documentar com informações como nome, função, dados pessoais, relevância, área, disponibilidade, objetivos e interesses.
+
+O engenheiro de requisitos e os stakeholders possuem responsabilidades (direitos e deveres) que devem ser cumpridos
+
+Modelo de Kano categoriza em:
+Fatores básicos de satisfação (subconsciente)
+Fatores esperados de satisfação (consciente)
+Fatores inesperados de satisfação ou fatores de entusiasmo (inconsciente)
+
+Técnicas de Elicitação:
+Técnicas de pesquisa: entrevista e questionário
+Técnicas de criatividade: brainstormin, paradoxo do brainstorming, mudança de perspectiva, técnicas de analogia
+Técnincas baseadas em documentos: arqueologia de sistema, leitura baseada em perspectiva, reutilização
+Técnicas de observação: observação de campo, aprendizado
+Ténicas de apoio: mapa mental, workshop, cartões CRC, gravações de áudio e vídeo, modelagem de caso de uso, protótipo
+
+Melhor técnica para fatores básicos de satisfação: pesquisa(entrevista e questionário) e observação
+
+
+
+
