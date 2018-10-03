@@ -1,7 +1,8 @@
 02/10/2018
 Módulo 4 - Documentação de Requisitos
+____________________________________________________________________________________________________________________________________________________________________
+1----Desenho do documento----
 
-Desenho do documento_____________________________________________
 A informação produzida precisa ser documentada, por exemplo: atas de reuniões, relatórios de atividades, solicitações de mudanças, protocolos de entrevistas.
 
 *A atividade de documentação mais importante é a documentação de requisitos do sistema.
@@ -24,16 +25,153 @@ Importância de documentar requisitos:
 4-Requisitos devem ser acessíveis por todas as partes envolvidas no projeto
 5-Compartilhar uma visão única dos requisitos
 
-Tipos de documentação_____________________________________________
+____________________________________________________________________________________________________________________________________________________________________
+2----Tipos de documentação----
 
 Os requisitos podem ser documentados sobre 3 diferentes perspectivas:
-1-Perspectiva estrututal - documenta estrutura de dados de entrada e saída
-2-Perspectiva funcional - documenta dados recebidos do contexto e processados pelo sistema, assim como os dados que retornam para o contexto
-3-Perspectiva comportamental - documenta reações do sistema em relação ao cntexto
+1-Perspectiva estrututal - documenta estrutura de dados de entrada e saída. (Diagrama de Classes)
+2-Perspectiva funcional - documenta dados recebidos do contexto e processados pelo sistema, assim como os dados que retornam para o contexto. (Diagrama de Atividades)
+3-Perspectiva comportamental - documenta reações do sistema em relação ao cntexto. (Diagrama de Estados)
 
 Na documentação de requisitos utiliza:
 -linguagem natural
--modelo conceitual
+	-vantagem de que não precisa aprender uma nova notação, basta saber escrever
+	-desvantagem de que os requisitos sejam documentados de forma ambígua
+
+-modelo conceitual (usar apropriada para cada questão),
+	-documenta de forma resumida, mais fácil entendida por um profissional treinado. 
+	-Minimizam ambiguidade
+
 -combinação de ambos (enriquece a documentação do sistema)
+
+Diagrama de caso de uso - permite uma visão rápida das funcionalidades do sistema
+Dioagramas de Classe - documenta requisitos referente a estruturas estáticas de dados
+Diagrama de atividades - modelar processos, conjunto de atividades.
+Diagrama de estados - documenta comportamentos orientados a eventos.
+
+Documentos de requisitos também são usados para:
+-documentar decisões, importantes explanações, preocupações e outras informações importantes e relevantes
+
+Dependendo do público alvo, utiliza-se combinações de tipos de documentação, vantagem de diminuir as deficiências de um determinado tipo de documentação.
+
+____________________________________________________________________________________________________________________________________________________________________
+3----Estrutura dos documentos----
+
+Boa estruturação é necessária em função de grande quantidade de informações	
+Estruturas podem ser definidas em modelos padronizados
+
+Vantagens de se utilizar modelos padronizados:
+1-Simplificação da incorporação de novos membros no time
+2-Rápida localização de conteudo desejado
+3-Leitura e validação seletiva (ex. ler somente os requisitos funcionais
+4-Verificação se o documento está completo
+5-Reutilização do conteúdo
+
+A estrutura de documento deve ser ajustada as necessidades do projeto
+
+3 estruturas de documentos mais utilizadas:
+1-RUP - cliente cria modelo de negocios	que servem de base para os requisitos do sistema (relacionada com IEEE 830-1998)
+Norma IEEE 830 separa em: Introdução, descrição geral e requisitos específicos	
+
+2-Modelo V - estrutura de acordo com o autor, divide em:
+-Especificação dos requisitos do cliente - exigências do contratante
+-Especificação dos requisitos do sistema - sugestões de implementação elaboradas pelo contratado. Descreve como implementar os requisitos e restrições.
+
+Informações mínimas que devem estar contidas em um documento:
+1-Introdução(visão geral do sistema)	
+1.1-Propósito - para o que o documento foi criado, publico alvo
+1.2-Cobertura do sistema - nome do sistema, objetivos e vantanges para quando o sistema for criado	
+1.3-Partes interessadas
+1.4-Definições, acrônimos e abreviações
+1.5-Referências 
+1.6-Visão geral - ao fim de cada capitulo, breve descrição
+
+2-Visão geral(informações adicionais paara entendimento dos requisitos)
+2.1-Ambiente do sistema - resultados de definir o limite do sistema e do contexto
+2.2-Descrição da arquitetura - interface de usuário, hardware, comunicação
+2.3-Funcionalidade do sistema - tarefas do sistema, como diagrama de caso de uso
+2.4-Publico alvo e usuários
+2.5-Restrições
+2.6-Premissas - o que não implementar
+
+3-Requisitos (funcionais e de qualidade)
+4-Apêndices (complemento)
+5-Índice(sumário)
+____________________________________________________________________________________________________________________________________________________________________
+4----Uso dos documentos de Requisitos----
+
+Os documentos de requisitos servem como base para diferentes tarefas durante o projeto de desenvolvimento do sistema (vários profissionais usam)
+
+Para que o documento de requisitos é utilizado: é base para o desenvolvimento do sistema, pode ser usado como contrato com cliente, serve paara demais pessoas
+se interagirem com o projeto
+-Planejamento - serve como gerenciamento de projetos	
+-Projeto arquitetônico - os requisitos servem para o desenho do sistema
+-Implementação - para o time de devs
+-Teste - utilizado pelos testadores
+-Gerenciamento de mudanças- 
+-Uso e manutenção do sistema 
+-Gerenciamento do contrato - principal objeto de contrato entre contratante e contratado
+____________________________________________________________________________________________________________________________________________________________________
+5----Critérios de Qualidade para documento de requisitos----
+
+Deve atender a um critério de qualidade para base de trabalhos futuros de desenvolvimento do sistema. São eles:
+1-Consistência e não ambiguidade - recomenda-se modelos conceituais
+2-Estrutura clara - abrangente e bem estruturado. Leitura seletiva.
+3-Modificabilidade e extensibilidade - permitir ser aumentado ou diminuido. Fácil de ser gerenciado 
+4-Completude - ter todos os requisitos relevantes, graficos e tabelas bem identificados
+5-Rastreabildiade -relacionamento entre documentos de requisitos e outros documentos devem estar claramente identificados
+____________________________________________________________________________________________________________________________________________________________________
+6----Critérios de qualidade para requisitos----
+
+Quando requisitos obedecem Conjunto de critérios de qualidade, aumenta aceitabilidade do leitor
+A norma IEEE 830-1998 definie os seguintes critérios
+1-Acordado - correto na opinião das partes interessadas (entram em acordo e concordam)
+2-Priorizado - classificar requisitos quanto a importância
+3-Não ambíguo -mesmo entendimento por vários leitores
+4-Válido e atualizado - representa os fatos que conferem com características do sistema
+5-Correto - representa de forma adequada a ideia da parte interessada
+6-Consistente - requisito não se contradiz
+7-Verificável - permite sua verificação, testes e mensurações podem ser realizados
+8-Realizável - implementação é possível (aspecto financeiro e técnico)
+9-Rastreável - identifica relacionamento com outros requisitos
+10-Completo - descreve na totalidade a funcionalidade de um requisito
+11-Compreensível - partes interessadas entendem o requisito
+
+Critérios para tornar requisitos mais legíveis:
+1-Utilizar sentenças e parágrafos curtos (7 frases)
+2-Formular um único requisito por frase (o vendedor deve tirar um pedido, mostrar o sujeito)
+____________________________________________________________________________________________________________________________________________________________________
+7----Glossário----
+
+Causa frequente de conflitos na engenharia de requisitos: diferentes interpretações de termos utilizadas pelas partes interessadas
+Utiliza glossário para armazenar os termos e suas definições. Possui os seguintes elementos:
+1-Termos técnicos específicos do contexto
+2-Abreviações e acrônimos
+3-Conceito do dia a dia que possuem determinado significado
+4-Sinônimos - termos diferentes com mesmo sentido
+5-Homônimos - termos iguais com sentidos diferentes
+
+Regras para utilizar glossário:
+1-ser gerenciado de forma centralizada
+2-Eleger alguem que fará a manutenção
+3-Deve ser atualizado constantemente
+4-Ter que estar acessível para todas as partes
+5-Uso obrigatorio por todas as partes interessadas
+6-Conter a origem dos termos
+7-Precisa ser aprovado pelas partes interessadas
+8-Deve ter uma estrutura consistente
+____________________________________________________________________________________________________________________________________________________________________
+----RESUMO----
+
+Neste módulo foi estudado a documentação de requisitos, que é o mesmo que especificação de requisitos e é uma responsabilidade do Engenheiro de Requisitos. 
+É importante documentar requisitos pois eles são base
+para o desenvolvimento do sistema, tem relevância legal (servindo como contrato), são complexos, devem ser acessíveis por todas as partes e compartilhar
+uma visão única dos requisitos.
+
+Técnicas para documentar requisitos:
+-Linguagem Natural (desvantagem que pode haver ambiguidade na definição de requisitos)
+-Modelo conceitual
+
+
 	
 
