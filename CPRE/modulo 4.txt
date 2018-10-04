@@ -163,15 +163,32 @@ Regras para utilizar glossário:
 ____________________________________________________________________________________________________________________________________________________________________
 ----RESUMO----
 
-Neste módulo foi estudado a documentação de requisitos, que é o mesmo que especificação de requisitos e é uma responsabilidade do Engenheiro de Requisitos. 
-É importante documentar requisitos pois eles são base
-para o desenvolvimento do sistema, tem relevância legal (servindo como contrato), são complexos, devem ser acessíveis por todas as partes e compartilhar
-uma visão única dos requisitos.
+Neste módulo foi estudado a documentação de requisitos, que é o mesmo que especificação e é uma responsabilidade do Engenheiro de Requisitos. 
+É importante documentar requisitos pois eles são base para o desenvolvimento do sistema, tem relevância legal (servindo como contrato), são complexos, 
+devem ser acessíveis por todas as partes e compartilhar uma visão única dos requisitos.
 
 Técnicas para documentar requisitos:
--Linguagem Natural (desvantagem que pode haver ambiguidade na definição de requisitos)
--Modelo conceitual
+-Linguagem Natural - vantagem que não precisa aprender uma nova notação e a desvantagem que pode haver ambiguidade na definição de requisitos.
+-Modelo conceitual - mais fácil compreendida por um profissional treinado. Não há ambiguidade.
+-A combinação de ambas as técnicas enriquece a documentação do sistema
 
+Requisitos podem ser documentados a partir de 3 perspectivas:
+1-Perspectiva estrututal - documenta estrutura de dados de entrada e saída. (Diagrama de Classes)
+2-Perspectiva funcional - documenta dados recebidos do contexto e processados pelo sistema, assim como os dados que retornam para o contexto. (Diagrama de Atividades)
+3-Perspectiva comportamental - documenta reações do sistema em relação ao contexto. (Diagrama de Estados)
+
+É necessario uma boa estruturação do documento, podendo utilizar modelos padronizados. As 3 mais utilizadas são: RUP, Modelo V e IEEE 830-1998.
+Um documento deve conter informações mínimas, como introdução, visão geral, requisitos, apêndices e índices
+
+Um documento de requisitos é utilizado para Planejamento ,Projeto arquitetônico, Implementação, Teste, Gerenciamento de mudanças, Uso e manutenção do sistema, 
+Gerenciamento do contrato.
+
+Critérios de Qualidade para documentos de requisitos: consistencia e não ambiguidade, estrututa clara, modificabilidade e extensibilidade, completude e rastreabilidade
+Critérios de Qualidade para requisitos: acordado, priorizado, não ambíguo, validado e atualizado, correto consistente, verificável, realizável, rastreável,
+completo, compreensível.
+
+Para evitar conflitos, utiliza glossário para definição de termos já que as partes interessadas podem interpretar de diferentes formas. Existem regras para 
+utilizar o glossário.
 
 	
 
