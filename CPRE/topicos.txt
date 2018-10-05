@@ -12,5 +12,8 @@ Resumo de Feedback
 
 Bate Papo sobre o Módulo
 _____________________________
-Valor Simulado: 4 pontos
-Nota Simulado: 4 pontos
+**03/10/2018 - Módulo 4 - Documentação de Requisitos**
+
+**Simulado**
+Valor: 5 pontos
+Nota: 4,5 pontos

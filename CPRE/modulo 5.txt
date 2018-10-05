@@ -1,0 +1,84 @@
+05/10/2018
+Módulo 5 - Documentação de Requisitos usando a Linguagem Natural
+____________________________________________________________________________________________________________________________________________________________________ 
+----Efeitos da Linguagem----
+
+Requisitos são frequentemente documentos usando linguagem natural, prosa livre por ser mais simples e mais prática. 
+Pode ser utilizada para descrever qualquer circunstancias
+
+Quando as partes interessadas estão lendo os requisitos, ocorrem os EFEITOS TRANSFORMACIONAIS que prejudicam o entendimento dos requisitos.
+Os efeitos transformarcionais que prejudicam os engenheiros de requisitos são:
+1-Nominalização - processos são reduzidos. A definição do termo deve ser adicionada no glossário.
+(ex. No caso de uma falha do sistema, a reinicialização do sistema deve ser realizada.)
+
+2-Substantivos sem indicador de referencia - ausencia de indice de referecia
+(ex. O sistema, o usuário, os dados) --> (que sistema é esse? / quem é o usuário? / quais dados?)
+
+3-Quantificadores universais - especificam quantidades e frequencias
+(ex. nunca, sempre, nenhum, todos, cada)
+(ex. o sistema deve mostrar todos os dados em cada tela) --> (será mesmo que deve mostrar todos os dados? em todas as telas?)
+
+4-Condições especificadas de forma incompleta - deve definir quando a condição é alcançada e quando não é alcançada
+(ex. palavras utilizadas para descrever condições - se...então, no caso de, se, en função de)
+(ex. os pedidos de venda acima de 1000 reais devem ser acatados pelo sistema de vendas ) --> (e os pedidos de 1000? e os pedidos inferiores a 1000)
+(então)--> 
+(Os pedidos de venda acima de R$ 1000 devem ser acatados pelo sistema de vendas) e (Os pedidos com valor igual ou inferior a R$ 1000 não devem ser acatados pelo sistema de vendas)
+
+5-Verbos de processo especificados de forma incompleta - verbos precisam de mais de um substantivo para serem completamente definidos
+(ex. Verbo trasmitir --> o que? de onde? para onde?)
+evitar o uso da voz passiva (os dados de login foram fornecidos no login) --> (o usuário forneceu seus dados no login)
+____________________________________________________________________________________________________________________________________________________________________ 
+----Construção de requisitos utilizando templates de sentenças----
+
+Template é uma estrutura mínima e extensível para escrever requisito, onde ajuda a definir os efeitos transformacionais
+Para alcançar clareza na construção de uma boa documentação deve-se utilizar templates de requisitos e glossário
+
+Para utilizar corretamente os templates de requisitos, deve seguir os 5 passos:
+
+1-Passo 1 - Determinar a obrigatoriedade legal
+-Quando o ER seleciona um dos verbos: deve/deveria/irá/pode
+-Os verbos identificam se os verbos são: obrigatórios, requisitos urgentes, requisitos futuros e requisitos desejáveis.	
+
+2-Passo 2 - Determinar o núcleo do requisito
+-O núcleo de um requisito é a funcionalidade que é especificada(salvar, imprimir, calcular)
+
+3-Passo 3 - Caracterizar a atividade do sistema - requisitos funcionais classificados em 3 tipos:
+-Atividade autônoma do sistema: sistema executa de forma autônoma.
+-Interação do usuário: sistema oferece o processo ao usuário como um serviço.
+-Requisito de interface: sistema executa um processo dependendo de um terceiro.
+
+4-Passo 4 - Inserir objetos e complementos - verbos exigem objetos(adjetivos ou adverbios) para serem completos
+
+5-Passo 5 - Determinar condições lógicas e temporais - funcionalidades fornecidas sob certas condições lógicas ou temporais
+-Temporais(assim que)
+-Lógicas(se)
+____________________________________________________________________________________________________________________________________________________________________ 
+----RESUMO----
+05/10/2018 Módulo 5 - Documentação de Requisitos usando a Linguagem Natural
+
+Neste módulo foi estudados os efeitos da linguagem e a construção de requisitos utilizando templates de sentenças. 
+Quando as partes interessadas estão lendo os requisitos, ocorrem os chamados efeitos transformacionais que prejudicam o entendimento dos requisitos.
+São eles:
+1-Nominalização - um processo é definido a partir de um termo. Deve ser adicionado no glossário.
+
+2-Substantivos sem indicador de referência - ausência de índice de referência. 
+Exemplo: "O sistema" --> mas qual sistema?
+
+3-Quantificadore universais - especificam quantidades e frequencias.
+Exemplo: "O sistema deverá mostrar **todos** os dados" --> É necessário realmente todos os dados?
+
+4-Condições especificadas de forma incompleta - definir quando uma condição _é alcançada_ e também quando _não é alcançada_.
+
+5-Verbos especificados de forma incompleta - substantivos que completam verbos.
+Exemplo: Verbo transmitir --> transmitir o que? de onde? para onde?
+
+Um Template é uma estrutura mínima e extensível que auxilia na escrita dos requisitos. Existem 5 passos, para utilizar corretamente os templates de requisitos:
+
+Passo 1: determinar a obrigatoriedade legal - selecionando um dos verbos: deve, deveria, irá, pode.
+Passo 2: determinar o núcleo do requisito - funcionalidade especificada: imprimir, salvar.
+Passo 3: caracterizar a atividade do sistema - onde os requisitos funcionais são classificados em 3 tipos:
+-Atividade autônoma do sistema: sistema executa de forma autônoma.
+-Interação do usuário: sistema oferece o processo ao usuário como um serviço.
+-Requisito de interface: sistema executa um processo dependendo de um terceiro.
+Passo 4: inserir objetos e complementos - complementar os verbos.
+Passo 5: determinar condições lógicas e temporais - temporais(assim que) / lógicas(se)
