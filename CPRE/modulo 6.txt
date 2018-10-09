@@ -1,0 +1,10 @@
+09/10/2018
+Módulo 6 - Documentação de Requisitos usando Modelos
+____________________________________________________________________________________________________________________________________________________________________ 
+----O conceito de modelo----
+
+O engenheiro documentos 3 tipos de requisitos
+-Metas - intenções das partes interessadas
+-Casos de Uso e Cenários - descrevem sequencias de utilização do sistema	 
+-Requisitos de Sistema - descrevem as funções ou qualidades que o sistema deve possuir
+
