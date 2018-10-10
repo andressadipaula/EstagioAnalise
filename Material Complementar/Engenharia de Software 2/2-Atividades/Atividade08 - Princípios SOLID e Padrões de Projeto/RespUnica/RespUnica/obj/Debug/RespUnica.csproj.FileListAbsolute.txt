@@ -1,0 +1,2 @@
+C:\Users\gUILHERME\Desktop\RespUnica\RespUnica\bin\Debug\RespUnica.exe.config
+C:\Users\gUILHERME\Desktop\RespUnica\RespUnica\obj\Debug\RespUnica.csprojResolveAssemblyReference.cache
