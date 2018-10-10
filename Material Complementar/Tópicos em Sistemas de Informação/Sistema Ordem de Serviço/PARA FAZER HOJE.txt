@@ -1,0 +1,4 @@
+
+- inserir os requisitos e descrever
+
+- o banco se chama osdb

@@ -1,0 +1,150 @@
+/*Estilo CSS para a View de Animais
+*
+*@author Maria Andressa de Paula Silva
+*@version 1.0
+*/
+
+/* ========================Layout============================== */
+
+/* ====================================================== */
+/*Altera o background*/
+body{
+	background: url(/img/cao.png);
+	background-attachment: fixed;
+	background-size: 270%;
+}
+/*teste*/
+#campo_1, #campo_2, #esconder{
+	display: none;
+}
+/* -- Recursos -- */
+.conteudo-geral{
+	padding-top: 110px;
+	min-height: 75.8%;
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.conteudo-geral #conteudo{
+	background: white;
+	background: rgba(255,255,255,0.8);
+	/*border-radius: 10px;*/
+	padding: 10px 0;
+	margin: -30px;
+	/*margin-right: 50px;*/
+	/*margin-left: 50px;*/
+	/*overflow-x: visible;*/
+}
+/* ====================================================== */
+
+/* ====================================================== */
+/*Cor, Hover e Fonte dos botões*/
+
+h3{
+	font-size: 25px;
+}
+#esconder, #exibir{
+	color: #333333;
+}
+
+#esconder:hover, #exibir:hover{
+	color: #4A47B2;
+	text-decoration: none;
+}
+
+#esconder{
+	display: none;
+}
+
+/*#esconder:hover, #exibir:hover{
+	background: #FFF;
+	color: #000;
+}*/
+
+/*Cor*/
+#btn-detalhes-listagem, #btn-adotar{
+	background: #4A47B2;
+	border-color: #4A47B2;
+}
+
+/*Hover - quando coloca mouse em cima*/
+#btn-detalhes-listagem:hover, #btn-adotar:hover{
+	background: white;
+	color: black;
+	text-shadow: none;
+}
+
+/*Fonte*/
+#btn-detalhes-listagem, #btn-adotar, #btn-cancelar-detalhes{
+	font-weight: bold;
+	font-size: 15px;
+}
+
+/*Titulo*/
+#conteudo h3{
+	font-size: 30px;
+}
+
+/* ====================================================== */
+
+/* ====================================================== */
+/*Imagem*/
+
+/*Imagem dos animais listados na index*/
+#img-listagem{
+	 width:100%;
+	 width:150px;
+	 height:140px;
+	 object-fit:cover; /* ajusta tamanho da foto no centro */
+	 margin: auto;
+}
+
+#img-listagem:hover{
+	 border: 2px solid #888888;
+	 box-shadow: 2px 2px 5px #888888;
+}
+
+/*Coluna em volta da imagem de detalhes*/
+#col-imagem{
+	margin: 10px;
+	/*border: 1px solid red;*/
+}
+
+#img-detalhes{
+	margin: auto;
+	width: 100%;
+	width:280px;
+	height:280px;
+	object-fit:cover; /* ajusta tamanho da foto no centro */
+	float: left;
+	margin:0 20px 10px 0;
+	/*border: 1px solid red;*/
+}
+
+#conteudo-animal{
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+#conteudo-detalhes{
+	text-align: justify;
+	padding-top: 10px;
+	margin: 10px;
+}
+
+/* ====================================================== */
+/*Fonte*/
+.conteudo-geral #conteudo h4{
+	font-weight: bold;
+}
+
+.conteudo-geral #conteudo span{
+	font-weight:normal;
+}
+
+#detalhe-nome{
+	font-size: 25px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #4A47B2;
+}

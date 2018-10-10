@@ -1,0 +1,481 @@
+/*
+*
+*@author Maria Andressa de Paula Silva
+*@version 1.0
+*/
+
+/* ========================Layout============================== */
+
+/* --Data Table-- */
+/*Tabela*/
+.dataTable > thead > tr > th[class*="sort"]::after, .dataTable > thead > tr > th[class*="sort"]::before{display: none}
+
+/*Para o data table completo*/
+
+/*Oculta os icones de ordenação*/
+#DataTables_Table_0_wrapper{
+	/*overflow-x: hidden;*/
+	font-size: 18px;
+}
+
+/*Cor no numero de paginas*/
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{
+	background: #4A47B2;
+	border: #4A47B2;
+}
+/*******************************************************************/
+
+/* -- Barra de Navegação -- */
+
+/* -- Apenas body da capa -- */
+html, body, .capa{
+	height: 100%;
+	text-align:justify;
+	overflow: auto;
+	text-align:justify;
+}
+
+/* -- Imagem de fundo que repete no body todo -- */
+body{
+	background: url(/img/cao.png);
+	background-attachment: fixed;
+	font-family: Helvetica, Arial, sans-serif;
+	overflow-x: hidden;
+	background-size: 100%;
+	position: relative;
+}
+
+/*Cor para todas as linhas horizontais de separação criadas*/
+hr {
+  background-color: #4A47B2;
+  height: 1px;
+}
+
+/* Google Fontes */
+@import url('https://fonts.googleapis.com/css?family=Chewy');
+
+/*Tamanho da imagem de Logotipo*/
+.img-logo{
+	height: 70px;
+	width: 162px;
+	display: block;
+	background: url(/img/logo.png) no-repeat;
+	background-size: contain;
+	color: transparent;
+}
+
+/*Cor da barra de navegação*/
+nav.navbar-transparente{
+	padding: 15px 0;
+	background: rgba(0,0,0,0.5);
+	border: none;
+}
+
+/*Espaços na Logo*/
+.navbar-brand{
+	padding: 0px;
+	margin-top: -7px;
+}
+
+/*Divisor do menu*/
+.divisor{
+	width: 1px;
+	height: 16px;
+	background: white;
+	margin: 16px 10px;
+}
+
+/*Cor dos itens de menu*/
+.navbar-inverse .navbar-nav>li>a, footer .nav a{
+	color: white;
+	text-shadow: 2px 2px 2px black;
+	text-transform: uppercase;
+}
+
+/*Cor dos itens de menu quando passar o mouse*/
+.navbar-inverse .navbar-nav>li>a:hover, footer .nav a:hover	{
+	border-bottom: 1px solid white;
+	background: none;	
+}
+
+/*Cor dos itens de menu quando passar o mouse*/
+footer .nav a:hover	{
+	border: none;
+	font-size: 16px;
+}
+
+#bem-vindo{
+	color:#FFF;
+	padding:6px;
+	margin-top:9px;
+	border:1px solid;
+	border-radius:3px;
+}
+
+.navbar-inverse .navbar-nav>li>#bem-vindo:hover{
+	color:#FFF;
+	padding:6px;
+	margin-top:9px;
+	border:1px solid;
+	border-radius:3px;
+}
+
+#bem-vindo:hover{
+	border: none;
+}
+
+/*teste*/
+.navbar-nav .dropdown .dropdown-menu-right a {
+    letter-spacing: 0;
+    font-size: 14px;
+    color: #FFF;
+    text-align: left!important;
+    padding: 6px 16px 6px 16px;
+    text-transform: none;
+    white-space: nowrap;
+}
+
+.navbar-nav .dropdown .dropdown-menu-right a:hover {
+    background: none;
+		font-size: 16px;
+}
+
+ul.dropdown-menu.dropdown-menu-right{
+		margin-top: 10px;
+		border-radius: 5px;
+		background: rgba(0,0,0,0.7);
+}
+
+/* -- Alert Sucess -- */
+#alerta-sucesso-cadastro{
+	margin-top:100px;
+	padding:20px;
+	text-align: center;
+	font-size: 20px;
+	border-radius: 10px;
+}
+
+/* -- Imagem de Capa -- */
+
+/* -- Capa -- */
+.capa{
+	display: table; /*1-Para centralizar vertical*/
+	width: 100%; /*4-Para centralizar vertical*/
+}
+
+/* -- Texto da capa -- */
+.texto-capa{
+	text-align: center;
+	color: white;
+	display: table-cell; /*2-Para centralizar vertical*/
+	vertical-align: middle; /*3-Para centralizar vertical*/
+}
+
+/* -- Botões da Capa -- */
+.btn-custom{
+	color: white;
+	border-radius: 300px;
+	-webkit-border-radius: 300px;/*para outros Navegadores*/
+	-moz-border-radius: 300px;/*para Mozila*/
+	text-transform: uppercase;
+	transition: background 0.4s, color 0.4s;
+	font-size: 25px;
+}
+
+.btn-roxo{
+	background: #4A47B2;
+	text-shadow: 2px 2px 2px black;
+}
+
+.btn-roxo:hover{
+	background-color: white;
+	color: black;
+	text-shadow: none;
+}
+
+.btn-branco{
+	border: 2px solid white;
+	text-shadow: 2px 2px 5px black;
+}
+
+.btn-branco:hover{
+	background-color: white;
+	color: black;
+	text-shadow: none;
+}
+
+/* -- Servicos -- */
+#servicos{
+	background: rgba(0,0,0,0.3);
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#servicos .img-circle{
+	padding: 10px 50px 0px 50px;
+}
+
+/* -- Imagens dos Servicos -- */
+.imagens{
+	padding: 10px 0 10px 5px;
+}
+
+/* -- Recursos -- */
+#recursos{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: white;
+	background: white;
+}
+
+.rotacionar{
+	transform: rotate(50deg);
+	-ms-transform: rotate(30deg);/*IE9*/
+	-webkit-transform: rotate(30deg);/*Chrome, Safari, Opera*/
+}
+
+/* RODAPÉ */
+footer{
+	background: rgba(0,0,0,0.5);
+	padding: 50px 0px 20px 0px;
+	position: absolute;
+	width: 100%;
+}
+
+.item-rede-social{
+	float: right;
+}
+
+footer .copyright{
+	font-size: 15px;
+	color: white;
+	padding-top: 20px;
+}
+
+/* Janela MODAL */
+#janelaEntrar #btn-entrar, #btn-enviar, #janela-cadastrar-adotante #btn-cadastrar, #janela-cadastrar-ong #btn-enviar, #btn-enviar-email-contato{
+	background: #4A47B2;
+}
+
+#janelaEntrar #btn-entrar:hover, #btn-enviar:hover, #janela-cadastrar-adotante #btn-cadastrar:hover	, #janela-cadastrar-ong #btn-enviar:hover, #btn-enviar-email-contato:hover{
+	background-color: white;
+	color: black;
+	text-shadow: none;
+}
+
+/* ======================Tipografia============================ */
+
+h1{
+	font-size: 120px;
+	font-weight: 900;
+	letter-spacing: -0.05em; /*deixa o texto mais colado*/
+	margin-bottom: 50px;
+	text-shadow: 4px 4px 9px black;
+	font-family: 'Chewy', cursive;
+}
+
+
+h2{
+	font-size: 50px;
+	font-weight: 700;
+	letter-spacing: 0.02em;
+}
+
+h3{
+	font-size: 30px;
+	font-weight: 700;
+	letter-spacing: 0.04em;
+}
+
+#servicos h2, #servicos h3{
+	color: white;
+	text-shadow: 3px 3px 2px black;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+#servicos h2{
+	font-size: 50px;
+	text-align: center;
+}
+
+#servicos p{
+	font-size: 18px;
+	color: black;
+	font-weight: bold;
+}
+
+#recursos h3{
+	color: #4A47B2;
+}
+
+#rodape h4{
+	color: white;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+#rodape a{
+	font-weight: bold;
+}
+
+p{
+	text-align: justify;
+}
+
+#recursos h2{
+	color: black;
+}
+
+#recursos p{
+	font-size: 20px;
+	color: black;
+}
+
+/* ======================Media Queries============================ */
+
+/* Capa */
+/* xs < 768 */
+@media screen and (max-width: 767px){
+	body{
+		background: url(/img/cao.png);
+		background-attachment: fixed;
+		background-size: 300%;
+	}
+	h1{
+		font-size: 50px;
+		margin-top: -10%;
+	}
+	.btn-custom{
+		margin: 10px 15px;
+		padding: 8px;
+	}
+}
+
+/* sm */
+@media screen and (min-width: 768px){
+	body{
+		background: url(/img/cao.png);
+		background-attachment: fixed;
+		background-size: 300%;
+	}
+	h1{
+		font-size: 70px;
+		margin-top: -10%;
+	}
+		.btn-custom{
+		margin: 10px 15px;
+		padding: 8px;
+	}
+}
+
+/* md */
+@media screen and (min-width: 992px){
+	body{
+		background: url(/img/cao.png);
+		background-attachment: fixed;
+		background-size: 100%;
+	}
+	h1{
+		font-size: 80px;
+		margin-top: 0%;
+	}
+		.btn-custom{
+		margin: 10px 15px;
+		padding: 8px;
+	}
+}
+
+/* lg */
+@media screen and (min-width: 1200px){
+	body{
+		background: url(/img/cao.png);
+		background-attachment: fixed;
+		background-size: 100%;
+	}
+	h1{
+		font-size: 100px;
+		margin-top: 15px;
+	}
+		.btn-custom{
+		margin: 10px 15px;
+		padding: 8px;
+	}
+}
+
+/****** Conteudo 1 ******/
+/* xs < 768 */
+@media screen and (max-width: 767px){
+	#servicos h2{
+		font-size: 35px;
+	}
+	#servicos{
+	margin-top: -30%;
+	background: none;
+	}
+	#servicos .img-circle{
+	width: 100%;
+	margin: auto;
+	padding: 10px 200px 0px 200px;
+	}
+	#recursos{
+		text-align: center;
+	}
+	/*esconde as imagens*/
+	#recursos img{
+		display: none;
+	}
+}
+
+/* sm >= 768 */
+@media screen and (min-width: 768px){
+	#servicos h2{
+		font-size: 35px;
+	}
+	#servicos{
+	margin-top: -25%;
+	}
+	#servicos .img-circle{
+	padding: 10px 200px 0px 200px;
+	}
+	#recursos{
+		text-align: center;
+	}
+	#recursos img{
+		display: none;
+	}
+}
+
+/* md >= 992 */
+@media screen and (min-width: 992px){
+	#servicos{
+	margin-top: -15%;
+	}
+	#servicos .img-circle{
+	padding: 10px 50px 0px 50px;
+	}
+	#recursos{
+		text-align: justify;
+	}
+	#recursos img{
+		padding-top: 35px;
+		width: 100%;
+		display:inline;
+	}
+}
+
+/* lg >= 1200 */
+@media screen and (min-width: 1200px){
+	#servicos{
+	margin-top: 0%;
+	}
+	#servicos .img-circle{
+	padding: 10px 100px 0px 100px;
+	}
+	#recursos img{
+		padding-top: 20px;
+		width: 100%;
+		display:inline;
+	}
+}

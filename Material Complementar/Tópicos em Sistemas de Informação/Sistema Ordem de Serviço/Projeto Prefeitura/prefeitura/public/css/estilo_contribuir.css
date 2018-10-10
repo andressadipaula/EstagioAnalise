@@ -1,0 +1,89 @@
+/*Estilo CSS para a View de Animais
+*
+*@author Maria Andressa de Paula Silva
+*@version 1.0
+*/
+
+/* ========================Layout============================== */
+
+/* ====================================================== */
+/*Altera o background*/
+body{
+	background: url(/img/cao.png);
+	background-attachment: fixed;
+	background-size: 270%;
+}
+
+/* -- Recursos -- */
+.conteudo-geral{
+	padding-top: 110px;
+	min-height: 75.8%;
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.conteudo-geral #conteudo{
+	background: white;
+	background: rgba(255,255,255,0.8);
+	padding: 10px 30px;
+	margin: -30px;
+}
+
+.conteudo-doacao{
+	margin: 15px 0;
+}
+
+#conteudo img{
+	width: 100%;
+	width: 200px;
+	height: 200px;
+	float: left;
+	transition: all .2s ease-in-out;
+	margin-right: 10px;
+}
+
+#conteudo img:hover{
+ border: 5px solid white;
+ transition: all .2s ease-in-out;
+ webkit-transition: all .2s ease-in-out;
+}
+
+#conteudo2, #conteudo4{
+	margin-top: 200px;
+}
+
+/* sm < 992 */
+@media screen and (max-width: 992px){
+	#conteudo2, #conteudo4{
+		margin-top: 0;
+	}
+}
+/* ====================================================== */
+
+/* ====================================================== */
+/*Fontes*/
+
+/*Titulo*/
+#conteudo h3{
+	font-size: 30px;
+	transition: all .2s ease-in-out;
+	text-align: center;
+}
+
+#conteudo h4{
+	font-weight: bold;
+	font-size: 35px;
+	color: #4946B1;
+	text-align:left;
+}
+
+h4{
+	font-size: 25px;
+	text-transform: uppercase;
+}
+
+#conteudo h5{
+	font-weight: bold;
+	font-size: 20px;
+	margin-left: 30px;
+}
