@@ -3,8 +3,223 @@ Módulo 6 - Documentação de Requisitos usando Modelos
 ____________________________________________________________________________________________________________________________________________________________________ 
 ----O conceito de modelo----
 
-O engenheiro documentos 3 tipos de requisitos
+O engenheiro documentos 3 tipos de requisitos:
 -Metas - intenções das partes interessadas
--Casos de Uso e Cenários - descrevem sequencias de utilização do sistema	 
--Requisitos de Sistema - descrevem as funções ou qualidades que o sistema deve possuir
+-Casos de Uso e Cenários - descrevem sequências de utilização do sistema. Caso de uso agrupa uma ou mais cenários.	 
+-Requisitos de Sistema - descrevem as funções ou qualidades que o sistema deve possuir. Servem como insumos para trabalhos posteriores da Engenharia de Requisitos.
+
+Modelo - é uma abstração da realidade existente ou que ainda será criada. Ex: maquete é o modelo da casa que ainda será criada. 
+O modelo tem 3 propriedades:
+1-Representação da Realidade: leva em consideração apenas os elementos relevantes. Ex: maquete não é feita em tamanho real dos comodos da casa.
+	Prescritivo: propriedades de um sistema que ainda vai ser criado.
+	Descritivo: descreve ou tem propriedades de uma realidade já existente
+2-Redução da Realidade: não considera todos os aspectos da realidade
+3-Pragmatismo: modelo sempre criado com um propósito, sempre criado dentro de um contexto.
+
+Linguagem de Modelagem: são utilizadas para construir modelos conceituais
+	-Sintaxe: elementos e regras que serão utilizados. Ex: parte da gramática que estuda as palavras.
+	-Semântica: é o significado de cada elemento.
+Linguagem de Modelagem:
+-Formais: maior rigidez das definições formais
+-Semiformais: certa medida de rigidez das definições formais
+-Informais: menor rigidez das definições formais
+
+MODELOS CONCEITUAIS = MODELOS DE REQUISITOS
+UML: utilizada para criar modelos de requisitos
+
+Modelos convencionais: documentar soluções escolhidas durante o desenvolvimento do sistema.
+Modelos de requisitos: descrevem aspectos do problema que está sendo analisado. Tem um enfoque estritamente definido. Ex: mapas retratando aspectos diferentes.
+____________________________________________________________________________________________________________________________________________________________________ 
+----Modelos de Metas----
+
+Partes interessadas: declaram suas intenções ou metas durante a elicitação. Essas metas devem ser documentadas.
+Por que documentar metas? Metas descrevem propriedades do sistema que será desenvolvido. 
+Metas podem ser documentadas através do modelo de metas (Técnica árvores E/OU)
+-Decomposição E: para a meta ser atingida, todas as submetas devem ser atingidas. ||
+-Decomposição OU: para a meta ser atingida, basta que uma submeta seja atingida . V
+
+____________________________________________________________________________________________________________________________________________________________________ 
+----Casos de Uso----
+
+Utilizado para documentar funcionalidades do sistema. Documenta as funcções do sistema do ponto de vista do usuário. Utiliza dois elementos:
+1-Diagramas de casos de uso:
+  Elementos:
+1-Casos de Uso: funcionalidade do sistema.
+2-Ator(pessoa ou sistema): usuários ou sistema
+3-Limite do sistema: separa os casos de uso dos atores.
+4-Extend: relacionamento de extensão. Pode ser acrescentado para descrever outro caso de uso.
+5-Include: relacionamento de inclusão. Um é essencial para o outro, faz parte.
+6-Relacionamento entre atores e caso de uso: descreve a interação entre eles.
+7-Generalizações: entre atores e casos de uso. Atores ou casos de uso especialistas herdam propriedade de atores ou casos de uso generalistas.
+
+2-Especificação de casos de uso - documentam interações entre caso de uso e ator através de templates. 
+IREB propoe um modelo com 17 elementos.
+-Identificação unica do caso de uso (item 1 e 2)
+-Atributos de gerenciamento (item 3 ao 7)
+-Atributo para descrição do caso de uso (item 8)
+-Atributos específicos do caso de uso (item 9 ao 17)
+____________________________________________________________________________________________________________________________________________________________________ 
+----Três perspectivas sobre requisitos----
+
+1-Estrutural: documenta as estruturas de dados de entrada e saída, aspectos estáticos estruturais. (ESTRUTURA)
+2-Funcional: documenta informação que está no contexto e é manipulada pelo sistema e documenta os dados enviados do sistema para o contexto. (DADOS OU INFORMAÇÃO)
+3-Comportamental: documenta a integração do sistema com o contexto baseada nos estados, ou seja, o que acontece com o sistema em função do que acontece no contexto.
+(ESTADO)
+
+Estrutural: DER e Diagrama de Classes UML
+Funcional: DFD e Diagrama de Atividades UML
+Comportamental: StateCharts e Diagrama de Estados UML
+
+____________________________________________________________________________________________________________________________________________________________________ 
+----Modelagem de Requisitos na Perpectiva Estrutural----
+
+1-DER (Digrama de Entidade e Relacionamento)
+-Entidade - conjunto de entidades dentro de um universo. (Exemplo: Cliente e Produto)
+-Relação - abstração a partir de uma característica concreta. (Exemplo: Compra, cliente compra produto)
+-Atributo - propriedades do tipo de entidade (Exemplo: nome, cliente possui nome)
+-Cardinalidade - número de instancias de relacionamentos.
+
+2-Diagrama de Classes UML
+-Classes - conjunto de objetos com característica similares. Nome, atributos e métodos
+-Associações - define relacionamento entre as classes. (Podem ter nomes e multiplicidades)
+-Composição - relacionamento entre parte e o todo. Uma parte não pode existir sem o todo.	
+-Agregação - relacionamento entre parte e o todo. Tipo de associação menos forte que a composição.
+-Generalização - tipo de relacionamento entre superclasse e subclasse.
+-Multiplicidade- define quantidades de instancias que ocorre entre as classes
+
+DER X CLASSES
+Diagrama de classes tem maior poder descritivo.
+DER tem menor poder descritivo
+
+____________________________________________________________________________________________________________________________________________________________________ 
+----Modelagem de Requisitos na Perpectiva Funcional----
+
+1-DFD (Diagrama de Fluxo de Dados) - apenas os fluxos de dados mais importantes são modelados.	
+-Processo - define as funções de um sistema que transformam os dados. Recebe dados, processa e gera dados de saída. Como o dado é transformado não é mostrado.
+-Repositório ou depósito de dados - define os dados persistidos. Os processos acessam o deposito de dados para realizar uma leitura ou gravação de dados.
+-Fluxo de dados	- define a movimentação dos dados entre processos, entidades e repositórios.
+-Entidade externa(fontes/destinos) - define objetos que estão no ambiente e trocam informações com o sistema. (pessoas, departamentos,sistemas)
+	Fonte - quando fornece dados ao sistema.
+	Destino - quando recebe dados do sistema
+
+2-Diagramas de Atividades UML
+-Atividade - descreve a execução de uma ação
+-Nó de Inicio - inicia a execução do diagrama de atividades
+-Nó de término - descreve o fim do diagrama de atividades
+-Fluxo de controle - descreve o fluxo de controle
+-Nó de decisão - condição
+-Barra de sincronização - execução concorrente de fluxo de objetos
+
+DFD X ATIVIDADES
+Diagrama de Atividades possui mais detalhes, inclui atividades paralelas, simultâneas e decisões. 
+DFD menos detalhes, apenas transformação e fluxo dos dados.
+
+____________________________________________________________________________________________________________________________________________________________________ 
+----Modelagem de Requisitos na Perpectiva Comportamental----
+
+1-StateCharts
+-Estado - define o momento no qual o sistema apresenta um comportamento e espera um evento ocorrer para executar uma transição definida	(ex. pedido incluido/faturado)
+-Transição - define a mudança de um estado para outro estado. É desencadeada por um evento que ocorre em um determinado estado. (ex. faturamento)
+-Estado inicial - inicio da transição de estados.
+-Estado Final - fim da transição de estados.
+-Estados Concorrentes
+
+2-Diagrama de Estados UML (extensão do statechart)
+-Ponto de entrada - descreve o pseudo-estado externamente visível imediatamente associado a um estado interno.
+-Ponto de saída - descreve o pseudo-estado externamente visível tendo como origem um estado interno.
+
+STATECHART X ESTADOS
+Diagramas de estados possui mais elementos
+Statechart possui menos elementos.
+
+____________________________________________________________________________________________________________________________________________________________________ 
+----RESUMO----
+**10/10/2018 - Módulo 6 - Documentação de Requisitos usando modelos**
+Neste módulo foi estudado sobre a documentação de requisitos usando modelos. Tive um pouco de dificuldade em compreender os diagramas de fluxo de dados,
+diagramas de estados e statcharts.
+
+1. Conceito de Modelo
+O engenheiro documentos 3 tipos de requisitos que são:
+-Metas - intenções das partes interessadas
+-Casos de Uso e Cenários - descrevem sequências de utilização do sistema. Caso de uso agrupa uma ou mais cenários.	 
+-Requisitos de Sistema - descrevem as funções ou qualidades que o sistema deve possuir. Servem como insumos para trabalhos posteriores da Engenharia de Requisitos.
+
+Um Modelo é uma abstração da realidade existente ou que ainda será criada. Ex: maquete é o modelo da casa que ainda será criada. 
+O modelo tem 3 propriedades:
+1-Representação da Realidade: leva em consideração apenas os elementos relevantes. Ex: maquete não é feita em tamanho real dos comodos da casa.
+	Prescritivo: propriedades de um sistema que ainda vai ser criado.
+	Descritivo: descreve ou tem propriedades de uma realidade já existente
+2-Redução da Realidade: não considera todos os aspectos da realidade
+3-Pragmatismo: modelo sempre criado com um propósito, sempre criado dentro de um contexto.
+
+MODELOS CONCEITUAIS = MODELOS DE REQUISITOS
+
+Linguagem de Modelagem:
+-Sintaxe: define os ELEMENTOS de modelagem a serem UTILIZADOS e especifica COMBINAÇÕES VÁLIDAS entre eles
+-Semântica: define o SIGNIFICADO dos ELEMENTOS de modelagem individuais. É o FUNDAMENTO para interpretação de modelos.
+---
+2.Modelos de Metas
+
+Partes interessadas: declaram suas intenções ou metas durante a elicitação. Essas metas devem ser documentadas pois descrevem propriedades do sistema 
+que será desenvolvido. Metas podem ser documentadas através do modelo de metas (Técnica árvores E/OU)
+-Decomposição E: para a meta ser atingida, todas as submetas devem ser atingidas. ||
+-Decomposição OU: para a meta ser atingida, basta que uma submeta seja atingida . V
+---
+3.Casos de Uso
+
+Utilizado para documentar funcionalidades do sistema. Documenta as funções do sistema do ponto de vista do usuário. Utiliza dois elementos:
+1-Diagramas de casos de uso
+2-Especificação de casos de uso - documentam interações entre caso de uso e ator através de templates. 
+---
+3.Três perspectivas sobre requisitos
+
+1-Estrutural: 
+-Documenta as estruturas de dados de entrada e saída, aspectos estáticos estruturais. 
+-Palavra-Chave: ESTRUTURA.
+-Modelos conceituais utilizados para documentar: DER (Diagrama de Entidade e Relacionamento) e Diagrama de Classes UML.
+
+1.1. DER - tem menor poder descritivo. Elementos utiulizados são: Entidade, Relação, Atributo e Cardinalidade.
+1.2. Diagrama de Classes UML - tem maior poder descritivo. Elementos utiulizados são: Classes, Associações, Composição, Agregação, Generalização, Multiplicidade.
+
+
+2-Funcional: 
+-Documenta informação que está no contexto e é manipulada pelo sistema e documenta os dados enviados do sistema para o contexto. 
+-Palavra-Chave: DADOS OU INFORMAÇÃO.
+-Modelos conceituais utilizados para documentar: DFD (Diagrama de fluxo de dados) e Diagrama de Atividades UML.
+
+2.1. DFD - apenas os fluxos de dados mais importantes são modelados. Possui menos detalhes. Os elementos são:	
+-Processo - define as funções de um sistema que transformam os dados. Recebe dados, processa e gera dados de saída. Como o dado é transformado não é mostrado.
+-Repositório ou depósito de dados - define os dados persistidos. Os processos acessam o deposito de dados para realizar uma leitura ou gravação de dados.
+-Fluxo de dados	- define a movimentação dos dados entre processos, entidades e repositórios.
+-Entidade externa(fontes/destinos) - define objetos que estão no ambiente e trocam informações com o sistema. (pessoas, departamentos,sistemas)
+	Fonte - quando fornece dados ao sistema.
+	Destino - quando recebe dados do sistema
+
+2.2. Diagramas de Atividades UML - possui mais detalhes, inclui atividades paralelas, simultâneas e decisões. Os elementos são:
+-Atividade, Nó de Inicio, Nó de término, Fluxo de controle, Nó de decisão e  Barra de sincronização.
+
+3-Comportamental: 
+-Documenta a integração do sistema com o contexto baseada nos estados, ou seja, o que acontece com o sistema em função do que acontece no contexto.
+-Palavra-Chave: ESTADO.
+-Modelos conceituais utilizados para documentar: StateCharts e Diagrama de Estados UML
+
+3.1. StateCharts
+-Estado - define o momento no qual o sistema apresenta um comportamento e espera um evento ocorrer para executar uma transição definida	(ex. pedido incluido/faturado)
+-Transição - define a mudança de um estado para outro estado. É desencadeada por um evento que ocorre em um determinado estado. (ex. faturamento)
+-Estado inicial - inicio da transição de estados.
+-Estado Final - fim da transição de estados.
+-Estados Concorrentes
+
+3.2. Diagrama de Estados UML (extensão do statechart) - possui os mesmos elementos que os statecharts, acrescentando:
+-Ponto de entrada - descreve o pseudo-estado externamente visível imediatamente associado a um estado interno.
+-Ponto de saída - descreve o pseudo-estado externamente visível tendo como origem um estado interno.
+____________________________________________________________________________________________________________________________________________________________________ 
+
+---
+
+
+
+
+
+
 
