@@ -1,0 +1,243 @@
+16/10/2018
+Módulo 7 - Validar e Acordar Requisitos
+____________________________________________________________________________________________________________________________________________________________________ 
+----Fundamentos da Validação de Requisitos----
+
+OBJETIVO DE VALIDAR E ACORDAR REQUISITOS:
+Assegurar que os requisitos que já estão documentados atendam os critérios de qualidade previamente definidos.
+
+É necessário que as partes interessadas confirmem os requisitos. 
+Durante a ER os requisitos precisar ser aprovados pelas partes interessadas.
+
+OBJETIVO DA VALIDAÇÃO DE REQUISITOS:
+É descobrir erros(desvios) nos requisitos documentados. Esses erros podem ser:
+-Ambiguidade: entendimento de diferentes formas.
+-Incompletude: quando o requisito não possui todas as informações que permite ser implementado pelo time de desenvolvimento
+-Contradições: revela uma informação que vai de encontro a outro requisito.
+Preocupação com a validação: custo das correções. Quanto mais tarde é descoberto, mais caro é pra corrgir.
+Erros em requisitos exigem a revisão de todos os artefatos(codigo fonte, script de teste, descrições de arquitetura) afetados pelo erro.
+Erros em requisitos podem levar ao não cumprimento de acordos contratuais.
+____________________________________________________________________________________________________________________________________________________________________ 
+----Fundamentos da Negociação de Requisitos----
+
+Quando não há consenso, pode surgir conflito entre as partes interessadas. (Quando as partes não concordam)
+Podem surgir também entre requisitos. (Quando um contradiz o outro).
+Conflitos podem representar riscos e oportunidades.
+-Riscos: impedir que um conjunto de requisitos não seja implementado. Pode gerar insatisfação e retirada de apoio ao projeto.
+-Oportunidades: solução de um conflito, pode gerar novas ideias ou uma diferente forma de implementação.
+Melhor maneira do ER lidar com conflitos: resolvê-los durante a fase de ER de forma clara e aberta.
+
+OBJETIVO DA NEGOCIAÇÃO DE REQUISITOS:
+Proporcionar uma compreensão comum e acordada sobre os requisitos entre todas as partes interessadas.
+
+Validação e Negociação gera custos adicionais.
+Validação e Negociação tem como benefício:
+-a redução de custos do projeto, aumento da aceitaçao do projeto e melhor receptividade ao desenvolvimento de novos sistemas.
+Os benefícios sao superiores aos custos envolvidos nessas atividades.
+
+____________________________________________________________________________________________________________________________________________________________________ 
+----Aspectos de Qualidade dos Requisitos----
+
+Objetivo: verificação sistemática de requisitos.
+Auditores e outros participantes conferem cada requisitos
+A validação de requisitos exige que cada critérios de qualidade seja considerado.
+Toda a validação é feita com os seguintes objetivos:
+1-Conteúdo: todos os requisitos foram r ealmente elicitados e possuem grau de detalhamento apropriado?
+2-Documentação: todos os requisitos foram documentados conforme as orientações de documentação e especificação?
+3-Acordo: todos os requisitos foram acordados pelas partes interessada e todos conflitos resolvidos?
+
+Cada objetivo da validação implica em um aspecto da qualidade de requisitos que por sua vez é composto por conjunto de critérios de qualidade.
+OBJETIVO DA VALIDAÇÃO --> ASPECTO DA QUALIDADE DE REQUISITOS --> CONJUNTO DE CRITÉRIOS DE QUALIDADE
+
+-Um requisito deve ser considerado aprovado somente se atender os 3 aspectos de qualidade de requisitos (conteúdo, documentação e acordo).
+
+1-Aspecto de Conteúdo: verifica erros de conteúdo. 
+É considerado verificado se atende os seguintes critérios:
+1.1 Completude: possui todas informações suficiente para ser utlizado em fases posteriores do desenvolvimento
+1.2 Rastreabilidade: relacionado e listado o requisito e facilmente localizado.
+1.3 Exatidão: quando atende desejos e necessidades das partes interessdas.
+1.4 Consistencia: quando é possivel implementar o requisito, sem contradição.
+1.5 Nenhuma decisão de design(desenho) prematura: decisão nos requisitos referente a solução.
+1.6 Verificabilidade: critérios de aceitação e teste para os requisitos.
+1.7 Necessidade: cumpre ou é desnecessário.
+
+2-Aspecto de Documentação: verificação de falhas na documentação ou verificação de violações das orientações de documentação.
+Quando viola as orientações pode acontecer: 
+-comprometimento das atividades de desenvolvimento
+-não compreensão dos requisitos
+-incompletude
+-requisitos ignorados
+É considerado verificado se atende os seguintes critérios:
+2.1 Conformidade com o formato da documentação: segue todas as orientações da organização(template q time dewsenvolveu)
+2.2 Conformidade com a estrutura da documentação: documentados na estrutura definida previamente
+2.3 Inteligibilidade ou compreensibilidade: requisitos conseguem ser entendidos facilmente
+2.4 Não-ambiguidade: unica interpretação
+2.5 Conformidade com as regras de documentação: sintaxe corretamente seguida, modelo conceitual corretamente desenhado.
+
+3-Aspecto de Acordo: verificação de falta de acordo entre as partes interessadas. Na validação elas podem levantar mudanças
+É considerado verificado se atende os seguintes critérios:
+3.1 Acordado: todas as partes interessadas concordam com o requisito, sem divergencias e conflitos
+3.2 Acordado após alteração: as partes interessadas continuam de acordo mesmo após mudanças
+3.3 Conflitos resolvidos: conflitos entre partes interessadas ou entre requisitos sanados
+
+____________________________________________________________________________________________________________________________________________________________________ 
+----Principios da Validação dos Requisitos----
+
+Para aumentar a qualidade dos requisitos, o ER leva em consideração os 6 princípios de validação:
+Pricípio: é aquilo que serve de base para algo que será feito posteriormente.
+
+1 Envolvimento das partes interessadas corretas: independência do autor, auditores internos e externos.
+2 Separação entre identificação de falhas e correção de erros: foco na identificação de erros e documentados.
+3 Validação a partir de diferentes pontos de vista: diferentes pontos de vista são úteis
+4 Mudança adequada do tipo de documentação: levar em consideração o que funciona e o que não funciona bem.
+5 Construção de artefato de desenvolvimento: validar a qualidade dos requisitos.
+6 Revalidação de requisitos: requisitos precisam ser validados mais de uma vez.
+Podem ser validados mais de uma vez quando:
+-novas tecnologias são utilizadas.
+-muitas ideias.
+-projetos de longa duração (requisitos podem mudar).
+-validação feita muito cedo.
+-domínio desconhecido.
+-quando se reutiliza requisitos.
+
+____________________________________________________________________________________________________________________________________________________________________ 
+----Técnicas de Validação de Requisitos----
+
+Durante a validação 3 técnicas (técnicas de revisão) são utilizadas:
+1 Parecer do especialista
+1.1 Autor entrega para o especialista(seu colega ou auditor) o documento de requisitos
+1.2 Especialista revisa documento e identifica problemas conforme critérios definidos previamente
+1.3 Especialista faz seus comentários
+1.4 Autor recebe o parecer e trabalha na correção.
+
+2 Inspeção: processo rigoroso. Chamada de revisão técnica. Dividida em:
+	-Planejamento, Visão geral, Detecção de defeitos, Coleta e consolidação de falhas (4 principais)
+	-Corrreção de defeitos, Follow-up, Reflexão.
+Passo a passo da inspeção:
+2.1 Organizador: define objetivo, resultados a serem inspecionados, os papéis e participantes da inspeção.
+2.2 Autor: explica os requisitos para os participantes para criar uma visão comum entre todos os inspetores.
+2.3 Inspetores: buscam falhas e doocumentam de forma sistemática, individualmente ou grupo.
+2.4 Inspetores consolidam as falhas detectadas e documentam medidas corretivas.
+
+Papéis em uma inspeção:
+-Organizador: planeja e superviosa
+-Moderador: lidera a sessão (pessoa neutra)
+-Autor: cria os requisitos
+-Leitor: apresenta os requisitos, orienta os inspetores
+-Inspetor: localiza a falha e comunicação sobre as inspeções
+-Secretário: prepara a ata da sessão e registra os resultados da inspeção
+
+3 Walkthrough
+-Processo menos rigoroso de identificação
+-Papéis mínimos: revisor, autor e o secretário. Pode possuir moderador
+-É um processo compartilhado e proporciona um conhecimento compartilhado entre os participantes da revisão
+Passo a passo:
+3.1 Os requisitos são distribuídos para todos os envolvidos e são inspecionados
+3.2 Os participantes discutem os requisitos debaixo da orientação do moderador/leitor
+3.3 O autor fornece informações complementares sobre os requisitos (explica e tira dúvidas)
+3.4 O secretário documenta as falhas identificadas
+
+Existem mais 3 técnicas que se destacam por facilitar o processo de validação
+
+4-Leitura baseada em perspectiva
+-os requisitos são validados debaixo de diferentes perspectivas
+-geralmente aplicada em conjunto com outras técnicas
+-tipo de perspectivas:
+	-tipos de publico (perspectiva usuário/cliente, arquiteto do software, testador)
+	-aspectos de qualidade (perspectiva do conteudo, documnetação, acordo)
+
+PASSO A PASSO:
+4.1 Para cada auditor pe atribuída uma perspectiva
+4.2 O auditor lê e faz a validação
+4.3 Os resultados são coletados e consolidados
+
+
+5-Validação por protótipos
+-permite os auditores testarem os requisitos na prática
+-método mais eficaz para identificar erros em requisitos
+	-protótipos descartáveis: não são utilizados posteriormente
+	-protótipos evolutivos: utilizados posteriormente
+
+PASSO A PASSO:
+5.1 participantes recebem instruções para a validação do protótipo
+5.2 cria um cenário para a validação (dados e interações com o usuário que serão considerados)
+5.3 cria lista de verificação com critérios que devem ser utilizados
+
+-2 princípios importantes na Validação por protótipos:
+	-auditor deve exeecutar os cenários de validação de forma independente e sem acompanhamento
+	-auditor deve executar os cenários assim como utilização protótipo de forma exploratória.
+
+-2 tipos de documentação são gerados:
+	-protocolo do auditor que registra resultados e experiência do auditor durante o processo de validação do protótipo
+	-protocolo de observação: feito por um observador do auditor durante a validação do protótipo.
+
+-Resultado da validação por protótipos:
+	-sugestões de mudanças são consolidadas
+	-protótitpo revisto e alterado
+	-validação é refeita
+
+6-Utilização de checklists
+-Reúne conjunto de perguntas e afirmações sobre determinada cinrcunstancias
+-Contem perguntas que facilitam a validação
+-Técnica que complementa outras
+
+-Fonte para criar perguntas ou afirmações:
+	-3 aspectos de qualidade de requisitos
+	-6 princípios de validação de requisitos
+	-os critérios de qualidade para documentos de requisitos
+	-os critérios de qualidade para requisitos individuais
+	-experiência dos auditores em projetos anteriores
+	-estatísticas de erros
+
+-Devem ser:
+-aprimoradas, servir de orientação para o auditor, podem conter itens obrigatórios ou opcionais, deve ocupar no máximo 1 página
+
+____________________________________________________________________________________________________________________________________________________________________ 
+----Acordo de Requisitos----
+
+-Para chegar a um acordo de requisitos é necessário identificar e resolver todos os conflitos.
+-O gerenciamento de confilitos é feito através de 4 tarefas:
+1-Identificação de conflitos
+-Podem surgir durante toda a ER.
+-Nem sempre são evidentes
+-Podem ocorrer entre requisitos
+-Podem ocorrer entre as partes interessadas.
+
+2-Análise de conflitos
+-Identifica a causa raíz do conflito
+-Entre partes interessadas são causadas por:
+	-informações equivocadas
+	-interpretações diferentes
+
+TIPOS DE CONFLITOS:
+
+1- Conflito de interesses: surge quando partes interessadas possuem interesses ou objetivos diferentes.
+(Exemplo: contador deseja relatorio quanto patrocinador diz não ser necessário em função do alto custo de desenvolvimento)
+
+2- Conflito de valores: surge divergências relacionadas a valores entre as partes interessadas.
+(Exemplo: o desenvolvedor deseja utilizar uma nova linguagem de programação enquanto gerente prefere uma que o time já domina)
+Valor em utilizar tecnologia consolidada.
+
+3- Conflito de relacionamento: surge quando partes interessadas possuem fortes emoções, conceitos esteriotipados, comunicação
+deficiente ou conduta interpessoal negativa. (ex. falta de respeito).
+(Exemplo: gerente de marketing deseja seus requisitos sejam implementados primeiro e considera eles mais importantes que os
+requisitos do gerente da contabilidade).
+
+4- Conflito estrutural: refere-se a partes interessadas com níveis distintos de poder, autoridade e influência.
+(Exemplo: o gerente de faturamento rejeita os requisitos de seu colaborador por achar que este nao possui competência
+suficiente para elaborar requisitos)
+
+3-Resolução de conflitos
+-Precisa satisfazer as necessidades das diferentes partes interessadas
+-Quando não agrada uma parte interessada, geralmente tem como consequencia a perda do comprometimento
+-Todas as partes interessadas 	
+4-Documentação da solução de conflitos
+
+
+PARA A CERTIFICAÇÃO:
+1 Conhecer implicação dos erros e importância da validação
+2 Entender importância e benefícios da negociação de requisitos.
+3 Correlacionar todos os critérios de cada aspecto  de qualidade de requisitos e cada critério
+4 Conhecer todos os princípios de validação de requisitos
+5 Conhecer as técnicas de validação e o seu funcionamento.
+
