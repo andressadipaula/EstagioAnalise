@@ -196,7 +196,9 @@ PASSO A PASSO:
 ----Acordo de Requisitos----
 
 -Para chegar a um acordo de requisitos é necessário identificar e resolver todos os conflitos.
+
 -O gerenciamento de confilitos é feito através de 4 tarefas:
+
 1-Identificação de conflitos
 -Podem surgir durante toda a ER.
 -Nem sempre são evidentes
@@ -212,7 +214,7 @@ PASSO A PASSO:
 TIPOS DE CONFLITOS:
 
 1- Conflito de interesses: surge quando partes interessadas possuem interesses ou objetivos diferentes.
-(Exemplo: contador deseja relatorio quanto patrocinador diz não ser necessário em função do alto custo de desenvolvimento)
+(Exemplo: contador deseja relatorio enquanto patrocinador diz não ser necessário em função do alto custo de desenvolvimento)
 
 2- Conflito de valores: surge divergências relacionadas a valores entre as partes interessadas.
 (Exemplo: o desenvolvedor deseja utilizar uma nova linguagem de programação enquanto gerente prefere uma que o time já domina)
@@ -228,10 +230,59 @@ requisitos do gerente da contabilidade).
 suficiente para elaborar requisitos)
 
 3-Resolução de conflitos
--Precisa satisfazer as necessidades das diferentes partes interessadas
--Quando não agrada uma parte interessada, geralmente tem como consequencia a perda do comprometimento
--Todas as partes interessadas 	
+-Precisa satisfazer as necessidades das diferentes partes interessadas.
+-Quando não agrada uma parte interessada, geralmente tem como consequência a perda do comprometimento.
+-Todas as partes interessadas relevantes precisam participar da solução do conflito.
+
+Para a resolução de conflitos utiliza as seguintes técnicas:
+3.1 Técnica de resolução de conflito 'Acordo'
+	-todas as partes negociam a solução do conflito.
+	-as partes trocam informações e compartilham seu ponto de vista.
+	-tentam convencer outros seu ponto de vista.
+	-objetivo chegar a um consenso.
+
+3.2 Técnica de resolução de conflito 'Compromisso'
+	-todas as partes negociam a solução examinando soluções alternativas.
+	-não tentam chegar a um acordo
+	-pode ser necessário rejeitar alternativas atuais e sugerir novas
+	-objetivo é chegar a um compromisso entre as partes.
+
+3.3 Técnica de resolução de conflito 'Votação'
+	-todas as partes votam soluções alternativas.
+	-as alternativas são apresentadas.
+	-a mais votada é aceita como solução do conflito.
+
+3.4 Técnica de resolução de conflito 'Análise de Alternativas'
+	-derivam-se variantes, selecionam-se os parâmetros das variantes ou selecionam-se as propriedades variáveis de sistema.
+	-isso permite atender diferentes necessidades das partes interessadas
+	-(cria-se variáveis no sistema para ele agir conforme a sua parametrização)
+
+3.5 Técnica de resolução de conflito 'Manda quem pode'
+	-parte de maior posição hierárquica rejeita ponto de vista de parte de menor posição e dita a solução do conflito.
+	-é recomendável somente se as outras técnicas fracassaram ou se há um limite de recursos(ex:tempo).
+
+3.6 Técnica de resolução de conflito 'Obter mais informações'
+	-todos os aspectos são investigados e explorados ao máximo e o maior número de informações é obtido.
+	-toda essa informação coletada é utilizada para priorizar os fatores investigados e determina-se assim sua relevância
+	-(conhecer o que está tentando se resolver)
+
+3.7 Técnica de resolução de conflito 'Análise de repercussões'
+	-todas as implicações positivas e negativas de cada alternativa é investigada.
+	-repercussões positivas são colocadas na categoria 'plus'
+	-repercussões negativas são colocadas na categoria 'minus'
+	-repercussões nem positivas e nem negativas são colocadas na categoria 'interesting' (analisar depois e classificar)
+
+3.8 Técnica de resolução de conflito 'Matriz de decisão'
+	-cria uma tabela com as alternativas de solução e os critérios de decisão
+	-para cada alternativa pontua, entre 0(irrelevante) e 10(relevante)
+	-calcula o total de cada, a maior é a solução
+
+ 	
 4-Documentação da solução de conflitos
+-Deve ser sempre documentada de forma rastreável
+-Quando não é rastreável: 
+	-enfrentamento dos mesmos conflitos (memso tempo e recurso)
+	-resolução inapropriada
 
 
 PARA A CERTIFICAÇÃO:
@@ -240,4 +291,5 @@ PARA A CERTIFICAÇÃO:
 3 Correlacionar todos os critérios de cada aspecto  de qualidade de requisitos e cada critério
 4 Conhecer todos os princípios de validação de requisitos
 5 Conhecer as técnicas de validação e o seu funcionamento.
+5-Conhecer as 4 atividades do gerenciamento de conflitos e as diferentes técnicas de resolução de conflitos.
 
