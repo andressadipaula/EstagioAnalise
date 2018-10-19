@@ -15,5 +15,7 @@ _____________________________
 **03/10/2018 - Módulo 4 - Documentação de Requisitos**
 
 **Simulado**
-Valor: 5 pontos
-Nota: 4,5 pontos
+Valor: 6 pontos
+Nota: 4 pontos
+
+**Aproveitamento:** 66% :neutral_face: 

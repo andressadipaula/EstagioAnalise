@@ -17,6 +17,7 @@ OBJETIVO DA VALIDAÇÃO DE REQUISITOS:
 Preocupação com a validação: custo das correções. Quanto mais tarde é descoberto, mais caro é pra corrgir.
 Erros em requisitos exigem a revisão de todos os artefatos(codigo fonte, script de teste, descrições de arquitetura) afetados pelo erro.
 Erros em requisitos podem levar ao não cumprimento de acordos contratuais.
+
 ____________________________________________________________________________________________________________________________________________________________________ 
 ----Fundamentos da Negociação de Requisitos----
 
@@ -284,8 +285,77 @@ Para a resolução de conflitos utiliza as seguintes técnicas:
 	-enfrentamento dos mesmos conflitos (memso tempo e recurso)
 	-resolução inapropriada
 
+____________________________________________________________________________________________________________________________________________________________________ 
+----RESUMO----
 
-PARA A CERTIFICAÇÃO:
+O objetivo de validar e acordar requisitos é assegurar que os requisitos que já estão documentados atendam os critérios já definidos
+O objetivo da validação é descobrir erros nos requisitos documentados.
+O objetivo da negociação é a compreensão comum e acordada sobre os requisitos enetre todas as partes.
+A validação é feita com os seguintes objetivos:
+1-Conteúdo: todos os requisitos foram realmente elicitados e possuem grau de detalhamento apropriado?
+2-Documentação: todos os requisitos foram documentados conforme as orientações de documentação e especificação?
+3-Acordo: todos os requisitos foram acordados pelas partes interessada e todos conflitos resolvidos?
+Cada objetivo da validação implica em um aspecto da qualidade de requisitos:
+1-Aspecto de Conteúdo: verifica erros de conteúdo. 
+	-Completude, Rastreabilidade, Exatidão, Consistência, Nenhuma decisão de design(desenho) prematura, Verificabilidade e Necessidade.
+
+2-Aspecto de Documentação: verificação de falhas na documentação ou verificação de violações das orientações de documentação.
+	-Conformidade com o formato, estrutura e regras da documentação, Inteligibilidade ou compreensibilidade e Não-ambiguidade.
+
+3-Aspecto de Acordo: verificação de falta de acordo entre as partes interessadas. Na validação elas podem levantar mudanças
+	-Acordado, Acordado após alteração e Conflitos resolvidos.
+
+Os 6 princípios de validação de requisitos são: 
+1 Envolvimento das partes interessadas corretas
+2 Separação entre identificação de falhas e correção de erros
+3 Validação a partir de diferentes pontos de vista
+4 Mudança adequada do tipo de documentação
+5 Construção de artefato de desenvolvimento
+6 Revalidação de requisitos
+
+As 3 técnicas (técnicas de revisão) ou de validação:
+1 Parecer do especialista: onde o autor dos requisitos entrega para um colega ler e identificar problemas.
+2 Inspeção: processo rigoroso onde tem os papéis de organizador, moderador, autor, leitor, inspetor e secretário.
+Nesta, o autor explica os requisitos enquanto os inspetores buscam falhas e documentam as medidas corretivas.
+3 Walkthrough (passo a passo): processo menos rigoroso com os papéis mínimos de revisor, autor e o secretário.
+Nesta, Os requisitos são distribuídos e os participantes discutem. O autor tira dúvidas e o secretário documenta as falhas identificadas.
+
+As 3 técnicas adicionais:
+4 Leitura baseada em perspectiva: os requisitos são validados debaixo de diferentes perspectivas(público ou qualidade)
+Nesta, cada auditor recebe uma perspectiva, lê e faz a validação. Os resultados são coletados e consolidados.
+5 Validação por protótipos: testes de requisitos na prática.
+Nesta, o auditor deve executar sem influência e acompanhamento os testes e registrar os resultados. Um observador também pode acompanhar e documentar.
+6 Utilização de checklists: Conjunto de perguntas e afirmações, sugere-se uma página apenas.
+
+O gerenciamento de confilitos é feito através de 4 tarefas: identificação de conflitos, análise de conflitos, resolução de conflitos e documentação da solução de conflitos.
+Os 4 tipos de conflitos são:
+
+1- Conflito de interesses: interesses ou objetivos diferentes. entre as partes interessadas.
+(Exemplo: contador deseja relatorio enquanto patrocinador diz não ser necessário em função do alto custo de desenvolvimento)
+
+2- Conflito de valores: divergências relacionadas a valores entre as partes interessadas.
+(Exemplo: o desenvolvedor deseja utilizar uma nova linguagem de programação enquanto gerente prefere uma que o time já domina)
+
+3- Conflito de relacionamento: fortes emoções, conceitos esteriotipados, comunicação, deficiente ou conduta interpessoal negativa. (ex. falta de respeito).
+(Exemplo: gerente de marketing deseja seus requisitos sejam implementados primeiro e considera eles mais importantes que os requisitos do gerente da contabilidade).
+
+4- Conflito estrutural: níveis distintos de poder, autoridade e influência.
+(Exemplo: o gerente de faturamento rejeita os requisitos de seu colaborador por achar que este nao possui competência suficiente para elaborar requisitos)
+
+As 8 técnicas para resolução de conflitos são:
+
+1 'Acordo' - todas as partes negociam a solução do conflito, com o objetivo de chegar a um consenso.
+2 'Compromisso' - todas as partes negociam a solução examinando soluções alternativas, com o objetivo é chegar a um compromisso entre as partes.
+3 'Votação' - todas as partes votam soluções alternativas, onde a mais votada é aceita como solução do conflito.
+4 'Análise de Alternativas' - derivam-se variantes, onde permite atender diferentes necessidades das partes interessadas.
+5 'Manda quem pode' - parte de maior posição hierárquica dita a solução do conflito.
+6 'Obter mais informações' - conhecer o que está tentando se resolver.
+7 'Análise de repercussões' - repercussões positivas (plus), repercussões negativas (minus) e não positivas e nem negativas (interesting).
+8 'Matriz de decisão' - tabela com as alternativas de solução e os critérios de decisão, onde calcula o total de cada e a maior é a solução.
+
+
+____________________________________________________________________________________________________________________________________________________________________ 
+----PARA A CERTIFICAÇÃO----
 1 Conhecer implicação dos erros e importância da validação
 2 Entender importância e benefícios da negociação de requisitos.
 3 Correlacionar todos os critérios de cada aspecto  de qualidade de requisitos e cada critério
