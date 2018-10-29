@@ -1,0 +1,79 @@
+28/10/2018
+Módulo 8 - Gerenciar Requisitos
+____________________________________________________________________________________________________________________________________________________________________ 
+----DESIGNANDO ATRIBUTOS PARA OS REQUISITOS----
+Exemplo de um requisito - "O sistema deve	permitir a inclusão de pedidos de venda para vendedores cadastrados e logados no sistema"
+
+Atributos são informações que descrevem os requisitos. É composto por nome único, descrição curta do conteúdo, valor atribuído ao atributo.
+Exemplos: identificador único, nome do requisito, descrição e estado do requisito.
+-A definição é feita através de templates ou modelos. O modelo assume uma estrutura de tabela. 
+-Pode variar conforme os tipos de requisitos.
+
+Esquema de atributos: conjunto de todos os atributos definidos para um tipo de requisito. É geralmente criado para cada projeto.
+	-Vantagem: diferentes partes interessadas localizam rapidamente informações desejadas.
+	-Permite a documentação de forma sistemática.
+
+Tipos de atributos frequentemente utilizados:
+	-Identificador
+	-Nome
+	-Descrição	
+	-Versão
+	-Autor
+	-Fonte	
+	-Estabilidade
+	-Criticidade - descrição da expectativa da extensão de perdas e danos, e a probabilidade de ocorrência
+	-Prioridade - descrição da prioridade em função da prioridade selecionada.
+
+Tipos de atributos de requisitos adicionais
+	-Responsável - nome dos responsáveis pelo conteúdo do requisito
+	-Tipo de requisito - funcional, qualidade ou restrição
+	-Status do conteúdo - estado atual em relação ao conteúdo
+	-Status da validação - status em relação a validação	
+	-Status do acordo - em relação ao acordo com as partes interessadas
+	-Esforço - estimativa de esforço para implementação
+	-Entrega ou release - entrega na qual será implementado
+	-Obrigatoriedade legal - grau de obrigatoriedade do requisito
+	-Referências cruzadas - relacionamentos com outros requisitos
+	-Informações gerais - informações adicionais relevantes
+
+Para criar um esquema de atributos para um projeto, os seguintes aspectos devem ser considerados:
+-propriedades do projeto: tamanho, desenvolvimento local ou distribuído.
+-restrições organizacionais: normas e regulamentos que vão exigir que um atributo seja sempre utilizado. 
+-propriedades e regulamentos do domínio da aplicação: modelos de referências, informações importantes que impactam o projeto.
+-restrições do processo de desenvolvimento: que vai impactar no processo de desenvolvimento.
+
+-Estrutura de atributos geralmente baseada em modelos de informação quando se utiliza estrutura de atributos.
+-Modelos de informação facilita o trabalho de definição de dependências de requisitos em relação a outros requisitos.
+-Templates podem ser gerados com base em modelos de informação
+
+____________________________________________________________________________________________________________________________________________________________________ 
+----VISUALIZAÇÕES DE REQUISITOS----
+
+Estruturar requisitos através de modelos de informação permite a criação de visualizações personalizadas de requisitos.
+Necessidade de consultar requisitos seletivamente, filtrando os requisitos conforme a necessidade.
+É comum a criação de visualizações distintas para cada papel dentro do time de desenvolvimento.
+
+-Visualização: apresentação das informações de um atributo, pode ser seletiva(apresentação parcial) ou consolidada(informações nao contidas nos requisitos)
+	-Seletiva: é possivel filtrar requisitos, ocultar atributos, filtrar requisitos e ocultar atributos.
+	-Consolidada: pode ser gerada de um gráfico
+
+____________________________________________________________________________________________________________________________________________________________________ 
+----PARA A CERTIFICAÇÃO----
+
+1- Atributos de requisitos mais utlizados e aos aspectos que devem ser considerados durante a criação do esquema de atributos.
+2- Conhecer os 2 tipos de visualizações (seletiva e consolidada)
+
+____________________________________________________________________________________________________________________________________________________________________ 
+---- ----
+
+____________________________________________________________________________________________________________________________________________________________________ 
+---- ----
+
+____________________________________________________________________________________________________________________________________________________________________ 
+---- ----
+
+____________________________________________________________________________________________________________________________________________________________________ 
+---- ----
+
+____________________________________________________________________________________________________________________________________________________________________ 
+---- ----
