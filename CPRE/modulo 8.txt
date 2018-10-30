@@ -58,13 +58,43 @@ Necessidade de consultar requisitos seletivamente, filtrando os requisitos confo
 	-Consolidada: pode ser gerada de um gráfico
 
 ____________________________________________________________________________________________________________________________________________________________________ 
+----PRIORIZAÇÃO DE REQUISITOS----
+
+-Definir aquilo que deve vir antes
+-Diferentes critérios são utilizados, com o uso de um ou mais atributos.
+-Exemplo de priorização (custo de implementação)
+
+Método de Priorização
+-É necessário identificar o propósito da priorização para escolher o critério (custo de implementação, risco, valor para o negócio).
+-É necessário que certas partes interessadas sejam convocadas (Exemplo, chamar os desenvolvedores).
+-Partes interessadas tender a priorizar requisitos com niveis mais altos de abstração
+
+Técnicas de Priorização
+-Variam de acordo com: tempos, esforço ou adequabilidade dos critérios de priorização e propriedades do projeto	
+
+Técnicas ad hoc
+Técnicas Analíticas
+-Técnicas simples são apropriadas quando recursos são limitados
+-Técnicas analíticas são recomendadas quando o processo de decisão não é bem compreendido e quando se tem tempo suficiente.
+
+As técnicas
+1-Ranking: partes organizam os requisitos em função de um critério específico (Ex. priorização por valor para o negócio).
+2-Top 10: organizam os requisitos em função de um critério específico com os 10 mais importantes (Ex: top 10 mais facil de ser implementado).
+3-Classificação por critério único: priorização baseada na importância da execução dos requisitos para o sucesso do sistema.
+  Para cada requisito é atribuído uma prioridade:
+  -Mandatório: deve ser implemtado a qualquer custo, compremete o sistema.
+  -Opcional: não é obrigatório, não compromete o sistema.
+  -Cosmético(é interessante ter ou nice to have): não influencia o sucesso do sistema se não for implementado. (surpreendem o cliente).
+4-Classificação Kano: básicas, esperadas e inesperadas.
+5-Matriz de priorização de Wiegers:abordagem analítica, utiliza uma matriz. Leva mais tempo e esforço
+
+
+____________________________________________________________________________________________________________________________________________________________________ 
 ----PARA A CERTIFICAÇÃO----
 
 1- Atributos de requisitos mais utlizados e aos aspectos que devem ser considerados durante a criação do esquema de atributos.
 2- Conhecer os 2 tipos de visualizações (seletiva e consolidada)
 
-____________________________________________________________________________________________________________________________________________________________________ 
----- ----
 
 ____________________________________________________________________________________________________________________________________________________________________ 
 ---- ----
