@@ -86,7 +86,38 @@ As técnicas
   -Opcional: não é obrigatório, não compromete o sistema.
   -Cosmético(é interessante ter ou nice to have): não influencia o sucesso do sistema se não for implementado. (surpreendem o cliente).
 4-Classificação Kano: básicas, esperadas e inesperadas.
-5-Matriz de priorização de Wiegers:abordagem analítica, utiliza uma matriz. Leva mais tempo e esforço
+5-Matriz de priorização de Wiegers:abordagem analítica, utiliza uma matriz. Leva mais tempo e esforço do que as ad hoc
+
+____________________________________________________________________________________________________________________________________________________________________ 
+----RASTREABILIDADE DE REQUISITOS----
+
+Rastrear requisito: possibilidade de identificar o requisito e suas ligações com outros artefatos do projeto durante todo o ciclo de vida do sistema.
+Vantagens:
+-Verificar se o requisito foi implementado.
+-Identificar propriedades desnecessárias do sistema.
+-Identificar requisitos desnecessários.
+-Analisar o impacto de mudanças em requisitos.
+-Reutilizar requisitos em outros projetos.
+-Determinar quem é o responsável pelo requisito.
+-Simplificar a manutenção do sistema.
+
+É praticamente impossível capturar todas as informações para permitir a rastreabilidade de requisito.
+Primeiramente deve-se identificar o propósito da rastreabilidade. Não fazer isso torna o processo custoso
+
+Tipos de rastreabilidade de requisitos
+1- Rastreabilidade pré-especificação de requisitos: identifica os relacionamentos do requisito com artefatos que formam a base ou origem do requisito.
+(Ex. rascunho do cliente, estratégia da organização)
+
+2- Rastreabilidade pós-especificação de requisitos: artefatos gerados a partir dos requisitos. 
+(Ex. esboço de tela do sistema, desenhos do processo do negócio, plano de implementação, caso de teste)
+
+3- Rastreabilidade entre requisitos: identifica os relacionamentos de dependência entre requisitos.
+(Ex. o vendedor deve poder incluir pedidos de vendas. Requisito deverivado: o vendedor deve poder informar a forma de pagamento durante a inclusão de pedidos de venda)
+
+Formas mais comuns de mostrar a rastreabilidade de requisitos:
+-Referências textuais e hiperlinks: simples de usar.
+-Matrizes de rastreabilidade: simples de usar, usa tabela para listar requisitos, artefatos e seus relacionamentos. Apropriada para poucos requisitos.
+-Grafos de rastreabilidade: um nó representa um diferente artefato e/ou requisito. 3 linhas no grafo: realizado por, origem e refina.
 
 
 ____________________________________________________________________________________________________________________________________________________________________ 
@@ -94,10 +125,11 @@ As técnicas
 
 1- Atributos de requisitos mais utlizados e aos aspectos que devem ser considerados durante a criação do esquema de atributos.
 2- Conhecer os 2 tipos de visualizações (seletiva e consolidada)
+3- Conhecer as diferentes técnicas de priorização. (Dica: matriz wiegers)
+4- Conhecer as diferentes técnicas de rastreabilidade
 
 
-____________________________________________________________________________________________________________________________________________________________________ 
----- ----
+
 
 ____________________________________________________________________________________________________________________________________________________________________ 
 ---- ----
