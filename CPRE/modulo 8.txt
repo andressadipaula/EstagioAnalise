@@ -119,6 +119,51 @@ Formas mais comuns de mostrar a rastreabilidade de requisitos:
 -Matrizes de rastreabilidade: simples de usar, usa tabela para listar requisitos, artefatos e seus relacionamentos. Apropriada para poucos requisitos.
 -Grafos de rastreabilidade: um nó representa um diferente artefato e/ou requisito. 3 linhas no grafo: realizado por, origem e refina.
 
+____________________________________________________________________________________________________________________________________________________________________ 
+----VERSIONAMENTO DE REQUISITOS----
+
+O versionamento permite ao ER identificar os diferentes estados dos requisitos ao longo do ciclo de vida do sistema.
+
+-Adota-se um número para a versão e outro para o incremento da versão.
+-O incremento da versão é aumentado por 1 quando pequenas modificações são feitas no sistema.	
+-A versão é aumentada por 1 quando maiores modificações são feitas no sistema.
+
+0.1 Versão inicial
+0.2 Pequenas modificações
+1.0 Grandes modificações
+1.1 Pequenas modificações
+
+Configuração de requisitos: conjunto de requisitos identificados por uma versão
+-Um único requisito pode ocorrer no máximo uma única vez na configuração de requisitos
+-É composta de duas dimensões: requisito/produto e versão
+
+Propriedades da configuração de requisitos:
+-Coesão lógica entre os requisitos
+-Consistência dos requisitos
+-Identificação única	
+-Inalterabilidade dos requisitos
+-Possibilidade de desfazer e voltar para  versões anteriores.	
+
+Baseline: é uma configuração de requisitos que consiste de versões estáveis de requisitos. (Ex. lista de requisitos aprovadas pelo cliente)
+Baselines dá suporte as seguintes atividades do desenvolvimento de sistemas:
+-Planejamento de releases/entregas
+-Estimativa de esforço envolvido com a implementação
+-Comparação com produtos concorrentes
+
+
+____________________________________________________________________________________________________________________________________________________________________ 
+----Gerenciamento de mudanças de requisitos----
+
+Motivos pelos quais requisitos mudam:
+-Modificações na legislação
+-Novas tecnologias
+-Concorrência
+-Falhas no sistema
+
+Poucas solicitações de mudanças podem significar baixo interesse e comprometimento das partes interessadas com o projeto.
+
+
+
 
 ____________________________________________________________________________________________________________________________________________________________________ 
 ----PARA A CERTIFICAÇÃO----
@@ -127,15 +172,13 @@ Formas mais comuns de mostrar a rastreabilidade de requisitos:
 2- Conhecer os 2 tipos de visualizações (seletiva e consolidada)
 3- Conhecer as diferentes técnicas de priorização. (Dica: matriz wiegers)
 4- Conhecer as diferentes técnicas de rastreabilidade
+5- Conhecer as propriedades de uma configuração de requisitos e as atividades que um baseline suporta
 
 
 
 
-____________________________________________________________________________________________________________________________________________________________________ 
----- ----
 
-____________________________________________________________________________________________________________________________________________________________________ 
----- ----
+
 
 ____________________________________________________________________________________________________________________________________________________________________ 
 ---- ----
